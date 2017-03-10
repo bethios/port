@@ -1,0 +1,90 @@
+*, *::before, *::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 64rem;
+}
+
+.container.narrow{
+    max-width: 56rem;
+}
+
+html{
+    height: 100%;
+    font-size:100%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Open Sans';
+    color: black;
+    min-height: 100%;
+    padding-bottom: 200px;
+
+}
+
+.panel-group .panel+.panel{
+    margin-top: 0px;
+}
+
+.panel-title {
+    padding: 20px;
+}
+
+.panel-title a{
+    float: right;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: hand;
+    color: white;
+    letter-spacing: 2.5px;
+}
+
+.row{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#about .panel-body{
+    padding: 0;
+}
+
+.hero{
+    background-image: url('../assets/images/desktop.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position-y: 70%;
+
+}
+
+img{
+    width: 100%
+}
+
+#about-me{
+    background-color: rgb(2, 82, 104);
+}
+
+#portfolio-heading{
+    background-color: rgb(2, 114, 142);
+}
+
+#blog-heading{
+    background-color: rgb(3, 147, 183);
+}
+
+#resume-heading{
+    background-color: rgb(2, 175, 219);
+}
+
+#contact-me-heading{
+    background-color: rgb(5, 205, 255);
+}
