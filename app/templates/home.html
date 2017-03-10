@@ -24,7 +24,7 @@
                             dipping my toes into new technologies.</p>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../assets/images/beth.jpg">
+                            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="beth-cummings-chicago"><a class="LI-simple-link" href='https://www.linkedin.com/in/beth-cummings-chicago?trk=profile-badge'>Beth Cummings</a></div>
                         </div>
                     </div>
                 </div>
@@ -32,15 +32,22 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading" id="portfolio-heading">
-            <h4 class="panel-title portfolio-heading">
-                <a data-toggle="collapse" data-parent="#accordion" href="#portfolio">Portfolio</a>
+        <div class="panel-heading" id="casestudies-heading">
+            <h4 class="panel-title casestudies-heading">
+                <a data-toggle="collapse" data-parent="#accordion" href="#casestudies">Case Studies</a>
             </h4>
         </div>
-        <div id="portfolio" class="panel-collapse collapse">
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div id="casestudies" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div ng-repeat="case in home.caseStudyData">
+                    <div class="case-study-tiles">
+                        <img class='case-thumb' src="{{case.thumbImage}}">
+                        <h3 class="case-study-details">{{case.Project}}</h3>
+                        <p class="case-study-details">{{case.Summary}}</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="panel panel-default" >
@@ -50,14 +57,17 @@
             </h4>
         </div>
         <div id="blog" class="panel-collapse collapse">
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div class="panel-body blog-body">
+                <div class='blog-post' ng-repeat="post in home.blogPosts">
+                    <h3>{{post.week}}</h3>
+                    <p>{{post.contents}}</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="panel panel-default">
         <div class="panel-heading" id="resume-heading">
-            <h4 class="panel-title portfolio-heading">
+            <h4 class="panel-title resume-heading">
                 <a data-toggle="collapse" data-parent="#accordion" href="#resume">Resume</a>
             </h4>
         </div>
@@ -67,17 +77,6 @@
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
         </div>
     </div>
-    <div class="panel panel-default" >
-        <div class="panel-heading" id="contact-me-heading">
-            <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#contact">Contact</a>
-            </h4>
-        </div>
-        <div id="contact" class="panel-collapse collapse">
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-        </div>
-    </div>
+
 </div>
 </div>
