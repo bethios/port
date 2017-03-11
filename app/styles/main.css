@@ -19,7 +19,7 @@ html{
 }
 
 body{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: black;
     display:inline;
 }
@@ -52,11 +52,6 @@ body{
     padding: 5px;
     margin: 10px;
     display: inline;
-}
-
-#cookies{
-    width: 50%;
-    margin: auto;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -101,6 +96,10 @@ form{
     margin-bottom: 25px;
 }
 
+#contact .row{
+    margin-top: 0px;
+}
+
 #about .panel-body{
     padding: 0;
 }
@@ -110,11 +109,15 @@ form{
     height: 350px;
     background-size: cover;
     background-position-y: 70%;
-
 }
 
 img{
     width: 100%
+}
+
+#cookies {
+    width: 75%;
+    margin:auto;
 }
 
 #about-me{
@@ -129,14 +132,16 @@ img{
     background-color: rgb(3, 147, 183);
 }
 
-
-
 #resume-heading{
     background-color: rgb(2, 175, 219);
 }
 
 #contact-me-heading{
     background-color: rgb(5, 205, 255);
+}
+
+.cookie-row{
+    margin-left: 20px;
 }
 
 .case-study-tiles{

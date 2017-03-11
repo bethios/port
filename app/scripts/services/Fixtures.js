@@ -1,6 +1,5 @@
 (function() {
     function Fixtures() {
-        //var Fixtures = {};
 
         var caseStudies = [
             {   Project: "Must Chat TV",

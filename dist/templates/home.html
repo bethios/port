@@ -1,112 +1,11 @@
-<div class="panel-group" id="accordion">
-    <div class="panel panel-default">
-        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#about" id="about-me">
-            <h1 class="panel-title portfolio-heading">
-                <a data-toggle="collapse" data-parent="#accordion" href="#about">Beth Cummings</a>
-            </h1>
-        </div>
-        <div id="about" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <div class="hero">
-                </div>
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-sm-4">
-                            <h2>Where I am</h2>
-                            <p>Web Development apprentice with Bloc with a passion for web accessible development. Currently developing a responsive app to
-                            chat with friends live about your favorite shows, Must Chat TV.  Built using AngularJS and Firebase's database
-                                and authentication systems</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <h2>Where I'm going</h2>
-                            <p>Working for a Chicago based marketing and advertising firm. Building a diverse range of client sites and
-                            dipping my toes into new technologies.</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="beth-cummings-chicago"><a class="LI-simple-link" href='https://www.linkedin.com/in/beth-cummings-chicago?trk=profile-badge'>Beth Cummings</a></div>
-                        </div>
-                    </div>
-                </div>
+<div class="panel-body row">
+    <div ng-repeat="project in home.caseStudyData" class="col-sm-4">
+        <div ui-sref="caseStudy" ng-click="home.setCurrentCaseStudy($index)" class="case-study-tiles ">
+            <img class='case-thumb' src="{{project.thumbImage}}">
+            <div class="case-overlay">
+                <h3 class="case-study-details">{{project.Project}}</h3>
+                <p class="case-study-details">{{project.Summary}}</p>
             </div>
         </div>
     </div>
-    <div class="panel panel-default">
-        <div class="panel-heading" id="casestudies-heading" data-toggle="collapse" data-parent="#accordion" href="#casestudies">
-            <h1 class="panel-title casestudies-heading">
-                <a data-toggle="collapse" data-parent="#accordion" href="#casestudies">Case Studies</a>
-            </h1>
-        </div>
-        <div id="casestudies" class="panel-collapse collapse">
-            <div class="panel-body row">
-                <div ng-repeat="case in home.caseStudyData" class="col-sm-4">
-                    <div class="case-study-tiles ">
-                        <img class='case-thumb' src="{{case.thumbImage}}">
-                        <div class="case-overlay">
-                            <h3 class="case-study-details">{{case.Project}}</h3>
-                            <p class="case-study-details">{{case.Summary}}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="panel panel-default" >
-        <div data-toggle="collapse" data-parent="#accordion" href="#blog" class="panel-heading " id="blog-heading">
-            <h1 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#blog">Blog</a>
-            </h1>
-        </div>
-        <div id="blog" class="panel-collapse collapse">
-            <div class="panel-body blog-body">
-                <div class='blog-post' ng-repeat="post in home.blogPosts">
-                    <h3>{{post.week}}</h3>
-                    <p>{{post.contents}}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-heading" id="resume-heading" data-toggle="collapse" data-parent="#accordion" href="#resume">
-            <h1 class="panel-title resume-heading">
-                <a data-toggle="collapse" data-parent="#accordion" href="#resume">Resume</a>
-            </h1>
-        </div>
-        <div id="resume" class="panel-collapse collapse">
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-        </div>
-    </div>
-    <div class="panel panel-default" >
-        <div class="panel-heading" id="contact-me-heading" data-toggle="collapse" data-parent="#accordion" href="#contact">
-            <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#contact">Contact</a>
-            </h4>
-        </div>
-        <div id="contact" class="panel-collapse collapse">
-            <div class="panel-body row">
-                <div class="col-sm-6">
-                    <h3 class="contact-me-header">Have Questions? Want to see more samples of my work or just want to chat? Let's get coffee and talk, I'll bring the cookies.</h3>
-                    <img id='cookies' src="../assets/images/cookies.png">
-                </div>
-                <div class="col-sm-6">
-                    <form action="https://liveformhq.com/form/6d65208a-fd03-450e-b733-d939c40ee5d7" method="POST" accept-charset="utf-8">
-                        <h3 class='contact-header'>Send me a message:</h3>
-                        <input class='contact-form' type="hidden" name="_utf8" value="✓">
-
-                        <input class='contact-form clearfix' type="text" id="name" size='40' name="name" placeholder="Name"> <br />
-
-                        <input class='contact-form clearfix' type="text" id="email" size="40" name="email" placeholder="E-mail Address"> <br />
-
-                        <textarea class='contact-form' id="message" cols="50" rows="5" name="message" placeholder="Message"></textarea><br>
-
-                        <button class='btn btn-default' type="submit" ng-click="form.setPristine(); form='' ">Send</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
 </div>

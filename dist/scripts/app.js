@@ -11,6 +11,12 @@
                 controller: 'HomeCtrl as home',
                 templateUrl: '/templates/home.html'
             });
+        $stateProvider
+            .state('caseStudy', {
+                url: '/caseStudy',
+                controller: 'CaseStudyCtrl as caseStudy',
+                templateUrl: '/templates/caseStudy.html'
+            });
     }
 
     angular
