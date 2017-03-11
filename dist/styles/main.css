@@ -113,6 +113,26 @@ h3.case-study-details{
     border-top: solid 1px black;
 }
 
+.ion-email{
+    font-size: 3rem;
+    color: navy;
+}
+
+.footer ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.footer ul img{
+    width: 50px;
+    height: auto;
+    cursor: hand;
+    display: inline;
+    float: right;
+    margin: 5px;
+}
+
 @media only screen and (min-width: 600px) {
     .panel-title{
         font-size: 110%;
