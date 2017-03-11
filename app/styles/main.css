@@ -28,22 +28,72 @@ body{
     margin-top: 0px;
 }
 
+.panel-heading{
+    cursor: hand;
+}
+
 .panel-group{
     margin-bottom: 0px;
 }
 
-.panel-title {
-    padding: 10px;
+.contact-header{
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.contact-me-header{
+    padding: 20px;
+    font-weight: 700;
+}
+
+.contact-form{
+    border: none;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 10px;
+    display: inline;
+}
+
+#cookies{
+    width: 50%;
+    margin: auto;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000000;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000000;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #000000;
+}
+
+.btn{
+    margin-left: 10px
+}
+
+form{
+    margin: 10px;
 }
 
 .panel-title a{
     float: right;
     font-family: 'Bowlby One SC', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     cursor: hand;
     color: white;
     letter-spacing: 0.1rem;
+}
+
+.panel-title{
+    padding: 15px
 }
 
 .row{
@@ -118,13 +168,13 @@ h3.case-study-details{
     color: navy;
 }
 
-.footer ul{
+footer ul{
     text-decoration: none;
     list-style: none;
 
 }
 
-.footer ul img{
+footer ul img{
     width: 50px;
     height: auto;
     cursor: hand;
@@ -135,9 +185,12 @@ h3.case-study-details{
 
 @media only screen and (min-width: 600px) {
     .panel-title{
-        font-size: 110%;
         padding: 20px;
     }
+    .panel-title a{
+        font-size: 1.75rem;
+    }
+
     .blog-post p{
         margin-left: 1rem;
     }
