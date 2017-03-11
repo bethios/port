@@ -19,7 +19,7 @@
                 Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user accounts to store preferences.",
                 thumbImage: '../../assets/images/frankiejams.png'
             },
-           /*
+
             {   Project: "Must Chat TV",
                 Summary: "",
                 Problem: "",
@@ -28,7 +28,7 @@
                 Conclusion: "",
                 thumbImage: '../../assets/images/mustchattv.png'
             }
-            */
+
         ];
 
         var posts = [
