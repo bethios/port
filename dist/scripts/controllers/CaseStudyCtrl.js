@@ -1,11 +1,6 @@
 (function() {
     function CaseStudyCtrl(Fixtures) {
-        this.setCurrentCaseStudy= function(index){
-            this.currentCaseStudyObject= Fixtures.examples[index];
-            console.log(this.currentCaseStudyObject.Results);
-        };
-
-        this.currentCaseStudyObject = null;
+        this.currentCaseStudyObject = Fixtures.currentCaseStudyObject || null;
 
     }
 
