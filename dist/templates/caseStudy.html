@@ -1,10 +1,23 @@
 <span class="ion-close" ui-sref="home"></span>
-<div>
-    <img class="thumb" src="{{caseStudy.currentCaseStudyObject.thumbImage}}">
-    <h2>Project Name: {{caseStudy.currentCaseStudyObject.Project}}</h2>
-    <p>Summary: {{caseStudy.currentCaseStudyObject.Summary}}</p>
-    <p>Problem: {{caseStudy.currentCaseStudyObject.Problem}}</p>
-    <p>Solution: {{caseStudy.currentCaseStudyObject.Problem}}</p>
-    <p>Results: {{caseStudy.currentCaseStudyObject.Results}}</p>
-    <p>Conclusion: {{caseStudy.currentCaseStudyObject.Conclusion}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <img class="ipad-view" src="{{caseStudy.currentCaseStudyObject.ipadView}}">
+        </div>
+        <div class="col-sm-6">
+            <h2>Project Name: {{caseStudy.currentCaseStudyObject.Project}}</h2>
+            <p>Summary: {{caseStudy.currentCaseStudyObject.Summary}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <p>Problem: {{caseStudy.currentCaseStudyObject.Problem}}</p>
+            <p>Solution: {{caseStudy.currentCaseStudyObject.Problem}}</p>
+            <p>Results: {{caseStudy.currentCaseStudyObject.Results}}</p>
+            <p>Conclusion: {{caseStudy.currentCaseStudyObject.Conclusion}}</p>
+        </div>
+        <div class="col-sm-6" >
+            <img class="phone-view" src="{{caseStudy.currentCaseStudyObject.phoneView}}">
+        </div>
+    </div>
 </div>

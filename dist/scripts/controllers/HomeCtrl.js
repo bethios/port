@@ -4,12 +4,12 @@
         this.blogPosts = Fixtures.blog;
 
         this.setCurrentCaseStudy= function(index){
-            this.currentCaseStudyObject= Fixtures.examples[index];
+            //this.currentCaseStudyObject= Fixtures.examples[index];
             Fixtures.currentCaseStudyObject = Fixtures.examples[index];
-            console.log(Fixtures.currentCaseStudyObject.Project);
+            //console.log(Fixtures.currentCaseStudyObject.Project);
         };
 
-        this.currentCaseStudyObject = null;
+        //this.currentCaseStudyObject = null;
 
     }
 

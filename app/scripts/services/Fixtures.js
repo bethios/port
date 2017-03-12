@@ -8,6 +8,8 @@
                 Solution: "Must Chat TV is solely dedicated to making the television watching experience more social. Chat with friends about the latest plot twists and dish on what you think will happen on next week's episode",
                 Results: "The end result is a retro feel with modern features. Users can add rooms and admins can create private rooms for select users.",
                 Conclusion: "Beginning user testing is positive, future features include admin's ability to delete rooms, ban users and for users to report abuse.",
+                ipadView: '../../assets/images/mustChat-IPad.png',
+                phoneView: '../../assets/images/mustChat-phone.png',
                 thumbImage: '../../assets/images/mustchattv.png'
             },
             {   Project: "Frankie Jams Out",
@@ -16,6 +18,8 @@
                 Solution: "Frankie Jams Out curates a selection of music that kids can sing along to but parent's won't mind hearing on repeat.",
                 Results: "With the ability to customize your playlist, rate songs for the community and skip to your favorite part of the chorus there are features that both parents and kids will love",
                 Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user accounts to store preferences.",
+                ipadView: '../../assets/images/frankieJams-iPad.png',
+                phoneView: '../../assets/images/frankieJams-phone.png',
                 thumbImage: '../../assets/images/frankiejams.png'
             },
 
@@ -25,6 +29,8 @@
                 Solution: "amazing",
                 Results: "woa",
                 Conclusion: "wowza",
+                ipadView: '../../assets/images/mustChat-IPad.png',
+                phoneView: '../../assets/images/mustChat-phone.png',
                 thumbImage: '../../assets/images/mustchattv.png'
             }
 
