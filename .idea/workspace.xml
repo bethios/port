@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07bc7cd6-9d13-4e11-8279-23e836c6c20d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/Fixtures.js" afterPath="$PROJECT_DIR$/app/scripts/services/Fixtures.js" />
-    </list>
+    <list default="true" id="07bc7cd6-9d13-4e11-8279-23e836c6c20d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -396,12 +394,12 @@
       <updated>1489159640154</updated>
       <workItem from="1489159644780" duration="696000" />
       <workItem from="1489177133182" duration="31524000" />
-      <workItem from="1489345683276" duration="55000" />
+      <workItem from="1489345683276" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32275000" />
+    <option name="totallyTimeSpent" value="32343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="32" width="1316" height="799" extended-state="0" />
