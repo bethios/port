@@ -1,11 +1,12 @@
 (function() {
-    function HomeCtrl(Fixtures) {
+    function HomeCtrl(Fixtures, CaseStudy) {
         this.caseStudyData = Fixtures.examples;
         this.blogPosts = Fixtures.blog;
 
         this.setCurrentCaseStudy= function(index){
             this.currentCaseStudyObject= Fixtures.examples[index];
-            console.log(this.currentCaseStudyObject.Project);
+            Fixtures.currentCaseStudyObject = Fixtures.examples[index];
+            console.log(Fixtures.currentCaseStudyObject.Project);
         };
 
         this.currentCaseStudyObject = null;
@@ -14,6 +15,6 @@
 
     angular
         .module('Portfolio')
-        .controller('HomeCtrl',['Fixtures', HomeCtrl]);
+        .controller('HomeCtrl',['Fixtures', 'CaseStudy' ,HomeCtrl]);
 })();
 

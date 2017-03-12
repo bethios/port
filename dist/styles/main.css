@@ -24,6 +24,10 @@ body{
     display:inline;
 }
 
+p{
+    text-align: justify;
+}
+
 .panel-group .panel+.panel{
     margin-top: 0px;
 }
@@ -111,6 +115,10 @@ form{
     background-position-y: 70%;
 }
 
+.thumb{
+    width: 25%
+}
+
 img{
     width: 100%
 }
@@ -159,9 +167,17 @@ h3.case-study-details{
     padding-right: 10px;
 }
 
+.ion-close{
+    float: right;
+    margin: 20px;
+    font-size: 30px;
+    cursor: hand;
+}
+
 .blog-body{
     height: 80vh;
     overflow: scroll;
+    margin: 5px;
 }
 
 .blog-post p{

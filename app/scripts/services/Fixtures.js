@@ -20,17 +20,28 @@
             },
 
             {   Project: "Must Chat TV",
-                Summary: "",
-                Problem: "",
-                Solution: "",
-                Results: "",
-                Conclusion: "",
+                Summary: "cool things here!",
+                Problem: "more stuff!",
+                Solution: "amazing",
+                Results: "woa",
+                Conclusion: "wowza",
                 thumbImage: '../../assets/images/mustchattv.png'
             }
 
         ];
 
         var posts = [
+            {
+                week: "Week 7: 3/6-3/12",
+                contents:'This week has been all Angular all the time.  We were tasked to build a chat app using Angular and Firebase’s realtime database' +
+                ' system.  I branded mine Must Chat TV, the idea being a social media platform dedicated to one thing, live chatting with friends about your ' +
+                'favorite shows while watching live.  I decided to go for 1950’s atomic age branding to make it a little fun. I ran into a few problems that ' +
+                'stackoverflow and some googling helped solve, getting the message view to scroll automatically to the newest message and clearing the message ' +
+                'field after sending to be ready for the next brilliant observation. After getting the assigned tasks of being able to start a new room, send ' +
+                'messages and create a username I decided to go a little further.  Firebase has a built in authentication system I decided to take advantage of, ' +
+                'now users on navigating to the site are prompted to log in or create a user account.  Additionally, I set up a system for admin users to have the ' +
+                'option of creating private rooms for selected users.'
+            },
             {week: "Week 6: 2/27 - 3/5",
             contents:
                 "This has been a pretty amazing week, not going to lie.  I finished the structured portion of refactoring Bloc Jams to Angular " +
@@ -96,6 +107,7 @@
             }
         ];
 
+        Fixtures.currentCaseStudyObject = null;
 
         return{
             examples: caseStudies,
