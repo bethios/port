@@ -3,7 +3,7 @@
 
         var caseStudies = [
             {   Project: "Must Chat TV",
-                Summary: "Must Chat TV is a web app built using AngularJS and firebase's database and authentication systems.",
+                Summary: "Must Chat TV is a web app built using AngularJS and firebase's database and authentication systems. Users can create an account, select or create chat rooms in real time and send messages. Admins have the ability to create private rooms for chosen users.",
                 Problem: "Social media can be an overload, you are excited about the season premiere of your favorite show and you want to chat with your friends about it without having to scroll through your second counsins political rants on facebook. ",
                 Solution: "Must Chat TV is solely dedicated to making the television watching experience more social. Chat with friends about the latest plot twists and dish on what you think will happen on next week's episode",
                 Results: "The end result is a retro feel with modern features. Users can add rooms and admins can create private rooms for select users.",
@@ -14,7 +14,7 @@
                 thumbImage: '../../assets/images/mustchattv.png'
             },
             {   Project: "Frankie Jams Out",
-                Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz.",
+                Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz designed with parents and kids in mind. Users can stream unlimited on any device without an account, rate songs and create a cultivated playlist.",
                 Problem: "Kid's music drives parents crazy and pressing shuffle on iTunes can lead to some interesting questions from the kiddos.",
                 Solution: "Frankie Jams Out curates a selection of music that kids can sing along to but parent's won't mind hearing on repeat.",
                 Results: "With the ability to customize your playlist, rate songs for the community and skip to your favorite part of the chorus there are features that both parents and kids will love",
