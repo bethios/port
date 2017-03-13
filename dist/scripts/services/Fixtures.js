@@ -11,7 +11,9 @@
                 ipadView: '../../assets/images/mustChat-IPad.png',
                 phoneView: '../../assets/images/mustChat-phone.png',
                 laptopView: '../../assets/images/mustChat-laptop.png',
-                thumbImage: '../../assets/images/mustchattv.png'
+                thumbImage: '../../assets/images/mustchattv.png',
+                github: 'https://github.com/bethios/mustchatTV'
+                //languageIcons: ['<i class="devicon-angularjs-plain"></i>','<i class="devicon-bootstrap-plain"></i>', '<i class="devicon-css3-plain"></i>']
             },
             {   Project: "Frankie Jams Out",
                 Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz designed with parents and kids in mind. Users can stream unlimited on any device without an account, rate songs and create a cultivated playlist.",
@@ -22,7 +24,8 @@
                 ipadView: '../../assets/images/frankieJams-iPad.png',
                 phoneView: '../../assets/images/frankieJams-phone.png',
                 laptopView: '../../assets/images/frankieJams-laptop.png',
-                thumbImage: '../../assets/images/frankiejams.png'
+                thumbImage: '../../assets/images/frankiejams.png',
+                github: 'https://github.com/bethios/Frankie-Jams-Out'
             },
 
             {   Project: "Must Chat TV",
@@ -33,7 +36,8 @@
                 Conclusion: "wowza",
                 ipadView: '../../assets/images/mustChat-IPad.png',
                 phoneView: '../../assets/images/mustChat-phone.png',
-                thumbImage: '../../assets/images/mustchattv.png'
+                thumbImage: '../../assets/images/mustchattv.png',
+                github: 'https://github.com/bethios/Frankie-Jams-Out'
             }
 
         ];

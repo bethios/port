@@ -186,6 +186,14 @@ h3.case-study-details{
     color: navy;
 }
 
+.github{
+    width: 20%;
+}
+
+.language-tags{
+    color: gray;
+}
+
 footer ul{
     text-decoration: none;
     list-style: none;
