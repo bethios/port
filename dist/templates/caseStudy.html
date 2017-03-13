@@ -7,12 +7,10 @@
         <div class="col-sm-3">
             <h1>{{caseStudy.currentCaseStudyObject.Project}}</h1>
             <p>{{caseStudy.currentCaseStudyObject.Summary}}</p>
-            <a href="{{caseStudy.currentCaseStudyObject.github}}" target="_blank"><img class="github" src="../assets/images/GitHub-Mark-32px.png"></a>
-            <!--
+            <a class='language-tags' href="{{caseStudy.currentCaseStudyObject.github}}" target="_blank"><i class="devicon-github-plain language-icons"></i></a>
             <div class='language-tags' ng-repeat="language in caseStudy.currentCaseStudyObject.languageIcons">
-                {{language}}
+                <i class="{{language}} language-icons"></i>
             </div>
-            -->
         </div>
     </div>
     <div class="row">

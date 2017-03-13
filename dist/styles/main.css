@@ -29,11 +29,11 @@ p{
 }
 
 .panel-group .panel+.panel{
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .panel-heading{
-    cursor: hand;
+    cursor: pointer;
 }
 
 .panel-group{
@@ -119,6 +119,20 @@ form{
     width: 25%
 }
 
+.language-icons{
+    font-size: 2.5rem;
+    display: inline;
+    float: left;
+    padding: 5px;
+    color: slategray;
+}
+
+.devicon-github-plain:hover{
+    color: white;
+    background-color: slategray;
+    border-radius: 50%;
+}
+
 img{
     width: 100%
 }
@@ -186,12 +200,8 @@ h3.case-study-details{
     color: navy;
 }
 
-.github{
-    width: 20%;
-}
-
-.language-tags{
-    color: gray;
+a .github{
+    width: 40px;
 }
 
 footer ul{
