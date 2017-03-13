@@ -10,6 +10,7 @@
                 Conclusion: "Beginning user testing is positive, future features include admin's ability to delete rooms, ban users and for users to report abuse.",
                 ipadView: '../../assets/images/mustChat-IPad.png',
                 phoneView: '../../assets/images/mustChat-phone.png',
+                laptopView: '../../assets/images/mustChat-laptop.png',
                 thumbImage: '../../assets/images/mustchattv.png'
             },
             {   Project: "Frankie Jams Out",
@@ -20,6 +21,7 @@
                 Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user accounts to store preferences.",
                 ipadView: '../../assets/images/frankieJams-iPad.png',
                 phoneView: '../../assets/images/frankieJams-phone.png',
+                laptopView: '../../assets/images/frankieJams-laptop.png',
                 thumbImage: '../../assets/images/frankiejams.png'
             },
 
