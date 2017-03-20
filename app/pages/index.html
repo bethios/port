@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico">
 </head>
 <body ng-controller="HomeCtrl as home">
 <div class="panel-group" id="accordion">
@@ -48,9 +48,9 @@
     </div>
     <div class="panel panel-default">
         <div class="panel-heading" id="casestudies-heading" data-toggle="collapse" data-parent="#accordion" href="#casestudies">
-            <h1 class="panel-title casestudies-heading">
+            <h2 class="panel-title casestudies-heading">
                 <a data-toggle="collapse" data-parent="#accordion" href="#casestudies">Case Studies</a>
-            </h1>
+            </h2>
         </div>
         <div id="casestudies" class="panel-collapse collapse">
 
@@ -60,9 +60,9 @@
     </div>
     <div class="panel panel-default" >
         <div data-toggle="collapse" data-parent="#accordion" href="#blog" class="panel-heading " id="blog-heading">
-            <h1 class="panel-title">
+            <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#blog">Blog</a>
-            </h1>
+            </h2>
         </div>
         <div id="blog" class="panel-collapse collapse">
             <div class="panel-body blog-body">
@@ -74,22 +74,37 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading" id="resume-heading" data-toggle="collapse" data-parent="#accordion" href="#resume">
-            <h1 class="panel-title resume-heading">
-                <a data-toggle="collapse" data-parent="#accordion" href="#resume">Resume</a>
-            </h1>
+        <div class="panel-heading" id="resume-heading" data-toggle="collapse" data-parent="#accordion" href="#skills">
+            <h2 class="panel-title resume-heading">
+                <a data-toggle="collapse" data-parent="#accordion" href="#skills">Skills</a>
+            </h2>
         </div>
-        <div id="resume" class="panel-collapse collapse">
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div id="skills" class="panel-collapse collapse">
+            <div class="panel-body skills-panel">
+                <i class="devicon-html5-plain-wordmark colored skills-icon" alt="HTML5 Icon"></i>
+                <i class="devicon-css3-plain-wordmark colored skills-icon" alt="CSS3 Icon"></i>
+                <i class="devicon-sass-original colored skills-icon" alt="Sass Icon"></i>
+                <i class="devicon-bootstrap-plain colored skills-icon" alt="Bootstrap Icon"></i>
+                <br>
+                <i class="devicon-angularjs-plain colored skills-icon" alt="Angular JS Icon"></i>
+                <i class="devicon-javascript-plain colored skills-icon" alt="Javascript Icon"></i>
+                <i class="devicon-jquery-plain-wordmark colored skills-icon" alt="JQuery Icon"></i>
+                <br>
+                <i class="devicon-rails-plain-wordmark colored skills-icon" alt="Rails Icon"></i>
+                <i class="devicon-ruby-plain-wordmark colored skills-icon" alt="Ruby Icon"></i>
+                <br>
+                <i class="devicon-grunt-line-wordmark colored skills-icon" alt="Grunt icon"></i>
+                <i class="devicon-github-plain colored skills-icon" alt="Github Icon"></i>
+                <i class="devicon-jetbrains-plain-wordmark colored skills-icon" alt="Jetbrains icon"></i>
+                <i class="devicon-photoshop-plain colored skills-icon" alt="Photoshop Icon"></i>
+            </div>
         </div>
     </div>
     <div class="panel panel-default" >
         <div class="panel-heading" id="contact-me-heading" data-toggle="collapse" data-parent="#accordion" href="#contact">
-            <h4 class="panel-title">
+            <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#contact">Contact</a>
-            </h4>
+            </h2>
         </div>
         <div id="contact" class="panel-collapse collapse">
             <div class="panel-body row cookie-row">

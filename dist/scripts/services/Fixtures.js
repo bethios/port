@@ -47,6 +47,26 @@
         ];
 
         var posts = [
+            {   week: "Week 9: 3/20-26",
+                contents: "Ruby time!  I’ve officially wrapped up the front-end module and I’m on to back end goodness with Ruby.  It’s strange, I learned " +
+                "Javascript for the last year on my own so it feels like an friend, if I got stuck I knew exactly which sites to visit to get unstuck.  I knew " +
+                "how to debug and to fiddle enough to not break anything.  Ruby is definitely starting from scratch in some ways.  Old habits die hard and I’m " +
+                "definitely struggling to break some JS syntax habits.  Parenthesis and curly  braces for everywhere no longer! This week also began with an " +
+                "intro to Test Driven Development which has been on my list of things I want to learn before getting into the real world.  It's very cool to " +
+                "use but wrapping your brain on making tests that will fail will certainly take some practice. An invaluable tool to be sure. We’ve started " +
+                "building a web based address book this week.  Lots of testing the program in the command line!"
+            },
+            {
+                week: "Week 8: 3/13-3/19",
+                contents: "So much has gotten done in the last week! Our next assignment was a personal portfolio (oh hey, you are on it right now!).  I knew " +
+                "the content was going to get pretty lengthy what with case studies and a blog and what not so I decided to fiddle around with an accordion " +
+                "design that automatically closed sections that weren’t being used. Lengthy sections like this very blog got their overflow adjusted to include" +
+                " an interior scroll to keep things tidy.  For the case studies I found some great resources to show screen shots on different size devices and" +
+                " eventually settled on initially showing them all on phone screens instead of boring ol’ tiles.  This way you can click anyone to be taken to a" +
+                " more detailed look. I also found time this week to devote to learning Sass. Omg its so cool.  The variables in Sass blew my mind, so handy! I" +
+                " loves the simplicity of the mixins.  I immediately started playing around with it on a portfolio site I’m making for a film director/producer. " +
+                " I’m in love with Sass.  While trying to figure out a palette I stumbled to coolors.com and had a blast messing with their color palette generator"
+            },
             {
                 week: "Week 7: 3/6-3/12",
                 contents:'This week has been all Angular all the time.  We were tasked to build a chat app using Angular and Firebase’s realtime database' +

@@ -24,10 +24,6 @@ body{
     display:inline;
 }
 
-p{
-    text-align: justify;
-}
-
 .panel-group .panel+.panel{
     margin-top: 0;
 }
@@ -188,7 +184,8 @@ h3.case-study-details{
 .blog-body{
     height: 80vh;
     overflow: scroll;
-    margin: 5px;
+    margin: auto;
+    max-width: 65rem;
 }
 
 .blog-post p{
@@ -202,6 +199,18 @@ h3.case-study-details{
 
 a .github{
     width: 40px;
+}
+
+.skills-panel{
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.skills-icon{
+    font-size: 4rem;
+    margin: 15px;
 }
 
 footer ul{
