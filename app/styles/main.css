@@ -129,6 +129,10 @@ form{
     border-radius: 50%;
 }
 
+.headshot{
+    padding: 2rem;
+}
+
 img{
     width: 100%
 }
@@ -139,23 +143,23 @@ img{
 }
 
 #about-me{
-    background-color: rgb(2, 82, 104);
+    background-color: rgb(0, 47, 58);
 }
 
 #casestudies-heading{
-    background-color: rgb(2, 114, 142);
+    background-color: rgb(0, 76, 91);
 }
 
 #blog-heading{
-    background-color: rgb(3, 147, 183);
+    background-color: rgb(0, 97, 117);
 }
 
 #resume-heading{
-    background-color: rgb(2, 175, 219);
+    background-color: rgb(0, 127, 153);
 }
 
 #contact-me-heading{
-    background-color: rgb(5, 205, 255);
+    background-color: rgb(0, 162, 198);
 }
 
 .cookie-row{
