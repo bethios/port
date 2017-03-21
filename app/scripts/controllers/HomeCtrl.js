@@ -2,14 +2,11 @@
     function HomeCtrl(Fixtures, CaseStudy) {
         this.caseStudyData = Fixtures.examples;
         this.blogPosts = Fixtures.blog;
+        this.testimonials = Fixtures.pastClients;
 
         this.setCurrentCaseStudy= function(index){
-            //this.currentCaseStudyObject= Fixtures.examples[index];
             Fixtures.currentCaseStudyObject = Fixtures.examples[index];
-            //console.log(Fixtures.currentCaseStudyObject.Project);
         };
-
-        //this.currentCaseStudyObject = null;
 
     }
 

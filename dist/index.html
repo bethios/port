@@ -80,23 +80,29 @@
             </h2>
         </div>
         <div id="skills" class="panel-collapse collapse">
-            <div class="panel-body skills-panel">
+            <div class="panel-body row">
+            <div class="skills-panel col-sm-5">
                 <i class="devicon-html5-plain-wordmark colored skills-icon" alt="HTML5 Icon"></i>
                 <i class="devicon-css3-plain-wordmark colored skills-icon" alt="CSS3 Icon"></i>
                 <i class="devicon-sass-original colored skills-icon" alt="Sass Icon"></i>
                 <i class="devicon-bootstrap-plain colored skills-icon" alt="Bootstrap Icon"></i>
-                <br>
                 <i class="devicon-angularjs-plain colored skills-icon" alt="Angular JS Icon"></i>
                 <i class="devicon-javascript-plain colored skills-icon" alt="Javascript Icon"></i>
                 <i class="devicon-jquery-plain-wordmark colored skills-icon" alt="JQuery Icon"></i>
-                <br>
                 <i class="devicon-rails-plain-wordmark colored skills-icon" alt="Rails Icon"></i>
                 <i class="devicon-ruby-plain-wordmark colored skills-icon" alt="Ruby Icon"></i>
-                <br>
                 <i class="devicon-grunt-line-wordmark colored skills-icon" alt="Grunt icon"></i>
                 <i class="devicon-github-plain colored skills-icon" alt="Github Icon"></i>
                 <i class="devicon-jetbrains-plain-wordmark colored skills-icon" alt="Jetbrains icon"></i>
                 <i class="devicon-photoshop-plain colored skills-icon" alt="Photoshop Icon"></i>
+            </div>
+            <div class="col-sm-6 testimonials">
+                <h3 class="testimonial-header">Testimonials</h3>
+                <div class="clients" ng-repeat="client in home.testimonials">
+                    <p class="testimonial-body">{{client.text}}</p>
+                    <h4 class="testimonial-info">{{client.name}} - {{client.title}}</h4>
+                </div>
+            </div>
             </div>
         </div>
     </div>
