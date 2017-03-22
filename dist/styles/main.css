@@ -204,7 +204,7 @@ a .github{
 }
 
 .skills-panel{
-    padding: 60px 20px;
+    padding: 60px 20px 20px 20px;
     text-align: center;
     margin: auto;
 }
@@ -228,6 +228,10 @@ a .github{
 .testimonial-body{
     max-width: 60rem;
     margin: auto;
+}
+
+.additional-skills{
+    padding-top: 15px;
 }
 
 footer ul{
