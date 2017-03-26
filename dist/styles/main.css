@@ -54,6 +54,10 @@ body{
     display: inline;
 }
 
+.contact-form-button{
+    margin: 10px;
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #000000;
 }
@@ -67,10 +71,6 @@ body{
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color:    #000000;
-}
-
-.btn{
-    margin-left: 10px
 }
 
 form{
