@@ -47,6 +47,50 @@
         ];
 
         var posts = [
+            {   week: 'Week 14: 4/24-4/30',
+                contents: 'This week was more of the wiki site, I decided to create an option for users to upgrade to a premium membership level that allows' +
+                ' them to create private wikis.  I integrated stripe to take a monthly membership payments. Premium members can add collaborators and work in ' +
+                'tandem to build out their wikis.  I imagine this will be incredibly helpful for students graduating in the same bootcamp cohort to pool their' +
+                ' resources and create a really tailored comprehensive database of knowledge.  That is one of the downsides of Bloc, you don’t have a single' +
+                ' group of folks all at the same point as you going through the same struggles.  While you will always find someone who is doing what you are' +
+                ' doing on any given day those people change week to week as no one really keeps the same pace.  I’m about 10% ahead of pace now so even folks' +
+                ' who were on the same track, starting at the same time as me are no longer on the same projects.  It can be isolating for sure.'
+            },
+            {   week: 'Week 13: 4/17-4/23',
+                contents: 'This week started a wiki type site that I’m calling “Booted” the idea is a site for bootcamp students and grads like myself to ' +
+                'supplement the knowledge of their coursework with techniques, technologies and computer science principles that their bootcamp might have' +
+                ' glossed over.  Using the devise gem I creating a way for folks to log in, retrieve and edit passwords. It was a little finicky to set up but' +
+                ' its so worth it to add that extra polish to the site. With my test driven development I entertained myself a little too much with the faker ' +
+                'gem, which allows you to generate (often goofy) seed data for your development database.  It was a fun little diversion and an adorable ' +
+                'alternative to the random data generator I had used previously.'
+            },
+            {   week: 'Week 12: 4/10-4/16',
+                contents: 'I’ve decided to rebrand my reddit site into ‘Cookit’.  The idea is that folks can contribute their grandmother’s recipes  and users can ' +
+                'comment, up/down vote and favorite recipes along the way.  There are so many beautiful, rustic recipes that are lost to time.  When recipes were ' +
+                'handed down not on paper but by experience in the kitchen. The site will be developed into Dishes, the name of the dish itself (i.e. Spaghetti and ' +
+                'Meatballs) with a little description of where the dish originates, fun facts, etcetera.  And within the Dish users can post their Grandma’s version' +
+                ' as a stand alone recipe.  That way users can see a whole list of all the versions of spaghetti and meatballs, compare and contrast and pick out those' +
+                ' they’d like to try. I’m utilizing the bcrypt gem for encrypting user passwords and figaro to hide all my sensitive data.  I was pretty happy with the ' +
+                'result but the formatting of the recipes weren’t quite right, so I’ve installed the redcarpet gem as well so users can utilize markdown syntax to style ' +
+                'their recipes with lists, images and the like.  Now I need a few folks to help me use test it and I’ll be set!'
+            },
+            {   week: 'Week 11: 4/3-4/9',
+                contents: 'And onto the first big Ruby Project! We are making a Reddit type site with all the bells and whistles.  So far we’ve worked on basics like ' +
+                'CRUD structure and a lot of Ruby built ins.  I definitely am seeing the developer friendly allure of Ruby with all the tools that can auto generate ' +
+                'models and controllers and the simplicity of gems.'
+            },
+            {   week: 'Week 10: 3/27 - 4/2',
+                contents: 'I’ve been working on two big projects outside of my course work this week. The first is a portfolio site for an L.A. Producer/Director ' +
+                'featuring lots of videos to her work, a modal pop up with her resume and a nice, clean style. I was tempted to build in Angular or Ruby since those ' +
+                'are the freshest in my mind but instead I went with JQuery.  We only did one project in it in Bloc thus far and I thought this would be a great ' +
+                'chance to brush up.  While I was at it I decided to break the bootstrap hold on me and experiment with css grid for layout.  I know bootstrap can be' +
+                ' a lot for the page to load and the simplicity and ease of css grid is really and truly wonderful.  So much easier to layout even complex pages with' +
+                ' so many options.  Definitely going in the ol’ toolkit. The second project is a site for a local business who carries local, handmade artists exclusively.' +
+                '  My first meeting with her went wonderfully!  I showed her my wireframe ideas and we talked about all our options to best show off the range and ' +
+                'diversity of her artists.  Priorities include a landing page that is both simple and visually stunning with lots of photos of her artists.  Inside ' +
+                'you’ll be able to browse artists by medium (photography, ceramics, fiber, etc) and see a profile of each maker.  I think it’ll be truly beautiful and ' +
+                'a wonderful marketing tool once it’s finished!'
+            },
             {   week: "Week 9: 3/20-26",
                 contents: "Ruby time!  I’ve officially wrapped up the front-end module and I’m on to back end goodness with Ruby.  It’s strange, I learned " +
                 "Javascript for the last year on my own so it feels like an friend, if I got stuck I knew exactly which sites to visit to get unstuck.  I knew " +
