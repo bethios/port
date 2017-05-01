@@ -106,9 +106,9 @@ form{
 
 .hero{
     background-image: url('../assets/images/desktop.jpg');
-    height: 350px;
+    height: 30vh;
     background-size: cover;
-    background-position-y: 70%;
+    background-position-y: 60%;
 }
 
 .thumb{
@@ -154,8 +154,24 @@ img{
     background-color: rgb(0, 97, 117);
 }
 
+.blog-image {
+    max-height: 70vh;
+    width: auto;
+    max-width: 100%;
+    padding-bottom: 15px;
+    margin: auto;
+    display: block;
+}
+
 #resume-heading{
     background-color: rgb(0, 127, 153);
+}
+
+.btn-primary{
+    background-color: rgb(0, 127, 153);
+    color: white;
+    font-weight: 400;
+    margin-top: 15px;
 }
 
 #contact-me-heading{
