@@ -41,6 +41,7 @@
                             <p>I'm entering the specialization portion of my Bloc.io education. In addition to a capstone project where I'll be making an ecommerce enabled
                                 website for a local Chicago business, I'll also be creating two additional front-end focused projects.  Keep your eyes on my portfolio to
                                 read about my progress and see my work. I'm also looking forward to completion of my program in August 2017! </p>
+                                <a href="{{home.resume}}" class="btn btn-primary btn-lg" target="_blank">Download Resume</a>
                         </div>
                         <div class="col-sm-4 headshot">
                             <img src="../assets/images/beth.jpg" alt="Beth Cummings photo">
@@ -127,7 +128,7 @@
                         </ul>
                     </div>
                     <div class="resumeDownload">
-                        <a href="https://resume.creddle.io/resume/1mroxkavjhq" class="btn btn-primary btn-lg" target="_blank">Download Resume</a>
+                        <a href="{{home.resume}}" class="btn btn-primary btn-lg" target="_blank">Download Resume</a>
                     </div>
                 </div>
 
@@ -164,7 +165,7 @@
                         <input class='contact-form clearfix' type="text" id="email" size="40" name="email" placeholder="E-mail Address"> <br />
                         <label for="message" class="sr-only">Message</label>
                         <textarea class='contact-form' id="message" cols="50" rows="5" name="message" placeholder="Message"></textarea><br>
-                        <button class='btn btn-default contact-form-button' type="submit" ng-click="form.setPristine(); form='' ">Send</button>
+                        <button class='btn btn-primary contact-form-button' type="submit" ng-click="form.setPristine(); form='' ">Send</button>
                     </form>
                 </div>
             </div>

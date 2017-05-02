@@ -3,6 +3,7 @@
         this.caseStudyData = Fixtures.examples;
         this.blogPosts = Fixtures.blog;
         this.testimonials = Fixtures.pastClients;
+        this.resume = "https://resume.creddle.io/resume/1mroxkavjhq"
 
         this.setCurrentCaseStudy= function(index){
             Fixtures.currentCaseStudyObject = Fixtures.examples[index];
