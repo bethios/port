@@ -1,10 +1,13 @@
 <span class="ion-close" ui-sref="home"></span>
 <div class="container">
     <div class="row">
-        <div class="col-sm-9">
+        <div class="col-sm-4">
+            <img class="phoneStudy" src="{{caseStudy.currentCaseStudyObject.mainImage}}">
+        </div>
+        <div class="col-sm-4">
             <img class="phoneStudy" src="{{caseStudy.currentCaseStudyObject.phoneView}}">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <a href="{{caseStudy.currentCaseStudyObject.deployLink}}" target="_blank"><h1>{{caseStudy.currentCaseStudyObject.Project}}</h1></a>
             <p>{{caseStudy.currentCaseStudyObject.Summary}}</p>
             <a class='language-tags' href="{{caseStudy.currentCaseStudyObject.github}}" target="_blank"><i class="devicon-github-plain language-icons"></i></a>
