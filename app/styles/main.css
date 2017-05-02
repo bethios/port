@@ -241,6 +241,11 @@ h3.case-study-details{
     border-top: solid 1px black;
 }
 
+.phoneStudy{
+    max-height: 30vh;
+    width: auto;
+}
+
 .ion-email{
     font-size: 3rem;
     color: navy;
