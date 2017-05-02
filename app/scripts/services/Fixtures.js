@@ -29,8 +29,8 @@
                 Results: "The end result is a retro feel with modern features. Users can add rooms and admins can create private rooms for select users.",
                 Conclusion: "Beginning user testing is positive, future features include admin's ability to delete rooms, ban users and for users to report " +
                 "abuse.",
-                ipadView: '../../assets/images/mustChat-IPad.png',
-                phoneView: '../../assets/images/mustChat-phone.png',
+                ipadView: '../../assets/images/mustChat(iPad).png',
+                phoneView: '../../assets/images/mustChat(iPhone).png',
                 laptopView: '../../assets/images/mustChat-laptop.png',
                 mainImage: '../../assets/images/mustchattv(iPhone)(1).png',
                 github: 'https://github.com/bethios/mustchatTV',
