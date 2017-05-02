@@ -93,39 +93,44 @@
         </div>
         <div id="skills" class="panel-collapse collapse">
             <div class="panel-body row">
-            <div class="skills-panel col-sm-3">
-                <h3>Languages</h3>
-                    <ul>
-                        <li>Javascript</li>
-                        <li>HTML/CSS</li>
-                        <li>Ruby</li>
-                        <li>Rails</li>
-                        <li>Sass</li>
-                    </ul>
-                <h3>Frameworks/Libraries</h3>
-                    <ul>
-                        <li>AngularJS</li>
-                        <li>JQuery</li>
-                    </ul>
-            </div>
-            <div class="skills-panel col-sm-3">
-                <h3>Principles</h3>
-                    <ul>
-                        <li>Test Driven Development</li>
-                        <li>Web Accessibility</li>
-                        <li>Algorithms</li>
-                        <li>Data Structures</li>
-                    </ul>
-                <h3>Additional Skills</h3>
-                    <ul>
-                        <li>Command Line</li>
-                        <li>GitHub</li>
-                        <li>Boostrap></li>
-                        <li>Firebase</li>
-                        <li>Photoshop</li>
-                    </ul>
-            </div>
-                <a href="https://resume.creddle.io/resume/1mroxkavjhq" class="btn btn-primary btn-lg" target="_blank">Download Resume</a>
+                <div class="col-sm-6">
+                    <div class="skills-panel col-sm-6">
+                        <h3 class="skill-category">Languages</h3>
+                        <ul class="skill-list">
+                            <li>Javascript</li>
+                            <li>HTML/CSS</li>
+                            <li>Ruby</li>
+                            <li>Rails</li>
+                            <li>Sass</li>
+                        </ul>
+                        <h3 class="skill-category">Frameworks/<br>Libraries</h3>
+                        <ul class="skill-list">
+                            <li>AngularJS</li>
+                            <li>JQuery</li>
+                        </ul>
+                    </div>
+                    <div class="skills-panel col-sm-6">
+                        <h3 class="skill-category">Principles</h3>
+                        <ul class="skill-list">
+                            <li>Test Driven Development</li>
+                            <li>Web Accessibility</li>
+                            <li>Algorithms</li>
+                            <li>Data Structures</li>
+                        </ul>
+                        <h3 class="skill-category">Additional Skills</h3>
+                        <ul class="skill-list">
+                            <li>Command Line</li>
+                            <li>GitHub</li>
+                            <li>Bootstrap</li>
+                            <li>Firebase</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="resumeDownload">
+                        <a href="https://resume.creddle.io/resume/1mroxkavjhq" class="btn btn-primary btn-lg" target="_blank">Download Resume</a>
+                    </div>
+                </div>
+
             <div class="col-sm-6 testimonials">
                 <h3 class="testimonial-header">Testimonials</h3>
                 <div class="clients" ng-repeat="client in home.testimonials">
@@ -153,13 +158,12 @@
                     <form action="https://liveformhq.com/form/6d65208a-fd03-450e-b733-d939c40ee5d7" method="POST" accept-charset="utf-8">
                         <h3 class='contact-header'>Send me a message:</h3>
                         <input class='contact-form' type="hidden" name="_utf8" value="✓">
-
+                        <label for="name" class="sr-only">Name</label>
                         <input class='contact-form clearfix' type="text" id="name" size='40' name="name" placeholder="Name"> <br />
-
+                        <label for="email" class="sr-only">Email</label>
                         <input class='contact-form clearfix' type="text" id="email" size="40" name="email" placeholder="E-mail Address"> <br />
-
+                        <label for="message" class="sr-only">Message</label>
                         <textarea class='contact-form' id="message" cols="50" rows="5" name="message" placeholder="Message"></textarea><br>
-
                         <button class='btn btn-default contact-form-button' type="submit" ng-click="form.setPristine(); form='' ">Send</button>
                     </form>
                 </div>

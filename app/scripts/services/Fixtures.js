@@ -15,9 +15,10 @@
                 ipadView: '../../assets/images/mustChat-IPad.png',
                 phoneView: '../../assets/images/mustChat-phone.png',
                 laptopView: '../../assets/images/mustChat-laptop.png',
-                mainImage: '../../assets/images/mustChat-phone.png',
+                mainImage: '../../assets/images/mustchattv(iPhone)(1).png',
                 github: 'https://github.com/bethios/mustchatTV',
-                languageIcons: ['devicon-angularjs-plain','devicon-bootstrap-plain', 'devicon-css3-plain']
+                languageIcons: ['devicon-angularjs-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
+                deployLink: 'http://mustchattv.netlify.com/'
             },
             {   Project: "Frankie Jams Out",
                 Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz designed with parents and kids in mind. Users can stream " +
@@ -28,13 +29,13 @@
                 "features that both parents and kids will love",
                 Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user " +
                 "accounts to store preferences.",
-                ipadView: '../../assets/images/frankieJams-iPad.png',
-                phoneView: '../../assets/images/frankieJams-phone.png',
+                ipadView: '../../assets/images/frankiejamsout(iPad).png',
+                phoneView: '../../assets/images/frankiejamsout(iPhone)(1).png',
                 laptopView: '../../assets/images/frankieJams-laptop.png',
-                mainImage: '../../assets/images/frankieJams-phone.png',
+                mainImage: '../../assets/images/frankiejamsout(iPhone).png',
                 github: 'https://github.com/bethios/Frankie-Jams-Out',
-                languageIcons: ['devicon-jquery-plain','devicon-bootstrap-plain', 'devicon-css3-plain']
-
+                languageIcons: ['devicon-jquery-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
+                deployLink: 'http://frankiejamsout.netlify.com/'
             },
             {   Project: "Cookit- Grandma's Recipes",
                 Summary: "Cookit is a place to store and find family recipes handed down over generations.",
@@ -45,10 +46,11 @@
                 Results: "Recipes can be added and styled using markdown language. User accounts hold their submitted recipes, track comments and their favorites. ",
                 Conclusion: "Responses have been positive, additional features for search and more complete instructions on using markdown language in the next version.",
                 ipadView: '../../assets/images/cookit-iPad.png',
-                phoneView: '../../assets/images/cookit-iPhone 6.png',
-                mainImage: '../../assets/images/cookit-iPhone 6(2).png',
+                phoneView: '../../assets/images/cookit-iPhone 6(2).png',
+                mainImage: '../../assets/images/cookit-iPhone 6.png',
                 github: 'https://github.com/bethios/bloccit',
-                languageIcons: ['devicon-ruby-plain','devicon-rails-plain', 'devicon-css3-plain']
+                languageIcons: ['devicon-ruby-plain','devicon-rails-plain', 'devicon-css3-plain'],
+                deployLink: 'https://cookit-grandmasrecipes.herokuapp.com/'
             },
             {   Project: "Booted",
                 Summary: "A wiki for coding bootcamp students and grads.",
@@ -62,7 +64,8 @@
                 phoneView: '../../assets/images/booted(iPhone)(1).png',
                 mainImage: '../../assets/images/booted(iPhone).png',
                 github: 'https://github.com/bethios/bloccit',
-                languageIcons: ['devicon-ruby-plain','devicon-rails-plain', 'devicon-css3-plain']
+                languageIcons: ['devicon-ruby-plain','devicon-rails-plain', 'devicon-css3-plain'],
+                deployLink: 'https://booted-resource.herokuapp.com/'
             }
 
         ];
@@ -160,7 +163,7 @@
                 'messages and create a username I decided to go a little further.  Firebase has a built in authentication system I decided to take advantage of, ' +
                 'now users on navigating to the site are prompted to log in or create a user account.  Additionally, I set up a system for admin users to have the ' +
                 'option of creating private rooms for selected users.',
-                image: '../assets/images/mustChat-IPad.png'
+                image: '../assets/images/mustchattv(iPad).png'
 
             },
             {week: "Week 6: 2/27 - 3/5",
@@ -216,7 +219,7 @@
                 "into this crazy useful skill set. Looking at the Bloc-Jams page I’m just imagining how this could easily be transformed into a really useful page " +
                 "for a band to show off their latest songs, have event listing and a blog.  It’ll be great once I get all the bones in place to really flesh it out" +
                 " and make it something wonderfully unique.",
-                image: '../assets/images/frankiejamsout(iPhone).png'
+                image: '../assets/images/frankiejamsout(iPhone)(1).png'
 
             },
             {week: "Week 2: 1/30-2/5",
@@ -241,25 +244,22 @@
         var recommendations =[
             {   id: 0,
                 name: "Caree Davis",
-                title: "Produce/Director",
-                text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et " +
-                "magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa " +
-                "quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. " +
+                title: "Producer/Director",
+                text: "Aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. " +
                 "Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. " +
                 "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus " +
                 "viverra nulla ut metus varius laoreet. "},
             {   id: 1,
                 name: "Kate Merena",
                 title: "Owner- Sacred Art",
-                text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et " +
+                text: "Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et " +
                 "magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis" +
                 " enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam " +
                 "dictum felis eu pede mollis pretium. Integer tincidunt."},
             {   id: 2,
                 name: "Sara Jane",
                 title: "Musician",
-                text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et " +
-                "magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa " +
+                text: "Nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa " +
                 "quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. " +
                 "Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. " +
                 "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus " +
