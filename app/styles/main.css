@@ -219,6 +219,10 @@ h3.case-study-details{
     padding-right: 10px;
 }
 
+.phone:hover {
+    cursor: hand;
+}
+
 .ion-close{
     float: right;
     margin: 20px;

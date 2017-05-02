@@ -2,6 +2,23 @@
     function Fixtures() {
 
         var caseStudies = [
+            {   Project: "Frankie Jams Out",
+                Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz designed with parents and kids in mind. Users can stream " +
+                "unlimited on any device without an account, rate songs and create a cultivated playlist.",
+                Problem: "Kid's music drives parents crazy and pressing shuffle on iTunes can lead to some interesting questions from the kiddos.",
+                Solution: "Frankie Jams Out curates a selection of music that kids can sing along to but parent's won't mind hearing on repeat.",
+                Results: "With the ability to customize your playlist, rate songs for the community and skip to your favorite part of the chorus there are " +
+                "features that both parents and kids will love",
+                Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user " +
+                "accounts to store preferences.",
+                ipadView: '../../assets/images/frankiejamsout(iPad).png',
+                phoneView: '../../assets/images/frankiejamsout(iPhone)(1).png',
+                laptopView: '../../assets/images/frankieJams-laptop.png',
+                mainImage: '../../assets/images/frankiejamsout(iPhone).png',
+                github: 'https://github.com/bethios/Frankie-Jams-Out',
+                languageIcons: ['devicon-jquery-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
+                deployLink: 'http://frankiejamsout.netlify.com/'
+            },
             {   Project: "Must Chat TV",
                 Summary: "Must Chat TV is a web app built using AngularJS and firebase's database and authentication systems. Users can create an account, " +
                 "select or create chat rooms in real time and send messages. Admins have the ability to create private rooms for chosen users.",
@@ -20,23 +37,6 @@
                 languageIcons: ['devicon-angularjs-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
                 deployLink: 'http://mustchattv.netlify.com/'
             },
-            {   Project: "Frankie Jams Out",
-                Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz designed with parents and kids in mind. Users can stream " +
-                "unlimited on any device without an account, rate songs and create a cultivated playlist.",
-                Problem: "Kid's music drives parents crazy and pressing shuffle on iTunes can lead to some interesting questions from the kiddos.",
-                Solution: "Frankie Jams Out curates a selection of music that kids can sing along to but parent's won't mind hearing on repeat.",
-                Results: "With the ability to customize your playlist, rate songs for the community and skip to your favorite part of the chorus there are " +
-                "features that both parents and kids will love",
-                Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user " +
-                "accounts to store preferences.",
-                ipadView: '../../assets/images/frankiejamsout(iPad).png',
-                phoneView: '../../assets/images/frankiejamsout(iPhone)(1).png',
-                laptopView: '../../assets/images/frankieJams-laptop.png',
-                mainImage: '../../assets/images/frankiejamsout(iPhone).png',
-                github: 'https://github.com/bethios/Frankie-Jams-Out',
-                languageIcons: ['devicon-jquery-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
-                deployLink: 'http://frankiejamsout.netlify.com/'
-            },
             {   Project: "Cookit- Grandma's Recipes",
                 Summary: "Cookit is a place to store and find family recipes handed down over generations.",
                 Problem: "Family recipes-- Grandma's sunday sauce, Tia's Enchiladas, Pop's Pancakes have traditionally been passed down orally. More and more" +
@@ -47,6 +47,7 @@
                 Conclusion: "Responses have been positive, additional features for search and more complete instructions on using markdown language in the next version.",
                 ipadView: '../../assets/images/cookit-iPad.png',
                 phoneView: '../../assets/images/cookit-iPhone 6(2).png',
+                laptopView: '../../assets/images/cookit-iPhone 6(2).png',
                 mainImage: '../../assets/images/cookit-iPhone 6.png',
                 github: 'https://github.com/bethios/bloccit',
                 languageIcons: ['devicon-ruby-plain','devicon-rails-plain', 'devicon-css3-plain'],
@@ -62,12 +63,12 @@
                 Conclusion: "Students from the same cohort utilize the premium membership and private wikis to create specialized wikis to supplement their education.",
                 ipadView: '../../assets/images/booted(iPad).png',
                 phoneView: '../../assets/images/booted(iPhone)(1).png',
+                laptopView: '../../assets/images/booted(iPhone)(1).png',
                 mainImage: '../../assets/images/booted(iPhone).png',
                 github: 'https://github.com/bethios/bloccit',
                 languageIcons: ['devicon-ruby-plain','devicon-rails-plain', 'devicon-css3-plain'],
                 deployLink: 'https://booted-resource.herokuapp.com/'
             }
-
         ];
 
         var posts = [
