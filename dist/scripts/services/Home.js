@@ -1,12 +1,12 @@
 (function() {
-    function SongPlayer($rootScope, Fixtures) {
-        var SongPlayer = {};
+    function Home($rootScope, Fixtures) {
+        var Home = {};
 
 
-        return SongPlayer;
+        return Home;
     }
 
     angular
         .module('Portfolio')
-        .factory('SongPlayer', ['$rootScope', 'Fixtures', SongPlayer]);
+        .factory('Home', ['$rootScope', 'Fixtures', Home]);
 })();

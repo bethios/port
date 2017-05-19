@@ -1,13 +1,7 @@
 <div class="panel-body row">
     <div ng-repeat="project in home.caseStudyData" class="col-sm-4">
-        <div ui-sref="caseStudy" ng-click="home.setCurrentCaseStudy($index)" class="case-study-tiles ">
-            <img class='phone' src="{{project.phoneView}}">
-            <!--
-            <div class="case-overlay">
-                <h3 class="case-study-details">{{project.Project}}</h3>
-                <p class="case-study-details">{{project.Summary}}</p>
-            </div>
-            -->
+        <div ui-sref="caseStudy" ng-click="home.setCurrentCaseStudy($index)" class="case-study-tiles phone">
+            <img class='phone' src="{{project.mainImage}}" alt-text="{{project.summary}}">
         </div>
     </div>
 </div>

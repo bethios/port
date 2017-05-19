@@ -106,9 +106,9 @@ form{
 
 .hero{
     background-image: url('../assets/images/desktop.jpg');
-    height: 30vh;
+    height: 25vh;
     background-size: cover;
-    background-position-y: 60%;
+    background-position-y: 50%;
 }
 
 .thumb{
@@ -183,9 +183,12 @@ img{
 }
 
 .resumeDownload{
+    text-align: center;
+}
+
+.resumeButton{
     margin: auto;
     width: auto;
-    margin-left: 35%;
 }
 
 .skill-list{
@@ -268,6 +271,10 @@ a .github{
 .skills-icon{
     font-size: 4rem;
     margin: 1rem;
+}
+
+.testimonials{
+    display: none;
 }
 
 .testimonial-header{

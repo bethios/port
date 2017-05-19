@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" id="appIcon">
 </head>
 <body ng-controller="HomeCtrl as home">
 <div class="panel-group" id="accordion">
@@ -29,29 +29,19 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <h2>Where I am</h2>
-<<<<<<< HEAD
-                            <p>Currently, I'm a Web Development apprentice with Bloc with a passion for web accessible development. After completing the front-end coursework
-                                in Javascript, JQuery, HTML5, CSS and Angular I've begun my back-end training in Ruby and Rails.  First up, Bloccit, a social media platform
-                                where users can post, share and rate links. <br>In addition to regular coursework I am teaching myself Sass, web accessible development
-                                and am starting on React.<br> <em>Plus,</em> I make A-ma-zing chocolate chip cookies.</p>
+                            <p>What cemented my decision to go into web development was the realization that the learning is never done. There is always a new technology,
+                                a new technique, new systems to explore and the nerd in me loves that. My apprenticeship at Bloc was wonderful but by allowing myself to
+                                look beyond the allocated work I’ve also taught myself the basics of data structures and algorithms, web accessible design, and I really
+                                drooled over Sass and CSS Grid. My to-do list of things to learn is always getting longer and I like that challenge.
+                                <br>
+                                (Plus, I make A-ma-zing chocolate chip cookies.)</p>
                         </div>
                         <div class="col-sm-4">
                             <h2>Where I'm going</h2>
-                            <p>Starting out, my most immediate goal is to gain experience with a variety of client needs. As such, working
-                            for a local, Chicago based advertising company would be ideal. I'm always excited to experiment and learn new languages and discover their unique
-                            benefits.</p>
-=======
-                            <p>Currently, I'm a Web Development apprentice with Bloc with a passion for web accessible development. After completing the front-end
-                                coursework in Javascript, JQuery, HTML5, CSS and Angular I've begun my back-end training in Ruby and Rails. First up, Bloccit, a social
-                                media platform where users can post, share and rate links.<br>
-                                In addition to regular coursework I am teaching myself Sass, web accessible development and am starting on React.<br>
-                                Plus, I make A-ma-zing chocolate chip cookies.</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <h2>Where I'm going</h2>
-                            <p>Starting out, my most immediate goal is to gain experience with a variety of client needs. As such, working for a local, Chicago based
-                                advertising company would be ideal. I'm always excited to experiment and learn new languages and discover their unique benefits.</p>
->>>>>>> skills
+                            <p>I'm entering the specialization portion of my Bloc.io education. In addition to a capstone project where I'll be making an ecommerce enabled
+                                website for a local Chicago business, I'll also be creating two additional front-end focused projects.  Keep your eyes on my portfolio to
+                                read about my progress and see my work. I'm also looking forward to completion of my program in August 2017! </p>
+                                <a href="{{home.resume}}" class="btn btn-primary btn-lg" target="_blank">Download Resume</a>
                         </div>
                         <div class="col-sm-4 headshot">
                             <img src="../assets/images/beth.jpg" alt="Beth Cummings photo">
@@ -82,9 +72,17 @@
         <div id="blog" class="panel-collapse collapse">
             <div class="panel-body blog-body">
                 <div class='blog-post' ng-repeat="post in home.blogPosts">
-                    <h3>{{post.week}}</h3>
-                    <p>{{post.contents}}</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="blog-image" src="{{post.image}}">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3>{{post.week}}</h3>
+                            <p>{{post.contents}}</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -96,43 +94,54 @@
         </div>
         <div id="skills" class="panel-collapse collapse">
             <div class="panel-body row">
-            <div class="skills-panel col-sm-5">
-                <i class="devicon-html5-plain-wordmark colored skills-icon" alt="HTML5 Icon"></i>
-                <i class="devicon-css3-plain-wordmark colored skills-icon" alt="CSS3 Icon"></i>
-                <i class="devicon-sass-original colored skills-icon" alt="Sass Icon"></i>
-                <i class="devicon-bootstrap-plain colored skills-icon" alt="Bootstrap Icon"></i>
-                <i class="devicon-angularjs-plain colored skills-icon" alt="Angular JS Icon"></i>
-                <i class="devicon-javascript-plain colored skills-icon" alt="Javascript Icon"></i>
-                <i class="devicon-jquery-plain-wordmark colored skills-icon" alt="JQuery Icon"></i>
-                <i class="devicon-rails-plain-wordmark colored skills-icon" alt="Rails Icon"></i>
-                <i class="devicon-ruby-plain-wordmark colored skills-icon" alt="Ruby Icon"></i>
-                <i class="devicon-grunt-line-wordmark colored skills-icon" alt="Grunt icon"></i>
-                <i class="devicon-github-plain colored skills-icon" alt="Github Icon"></i>
-                <i class="devicon-jetbrains-plain-wordmark colored skills-icon" alt="Jetbrains icon"></i>
-                <i class="devicon-photoshop-plain colored skills-icon" alt="Photoshop Icon"></i>
-                <div>
-                    <h3 class="additional-skills">Additional Skills</h3>
-                        <p>Test Driven Development</p>
-                        <p>Web Accessibility</p>
-                        <p>Algorithms</p>
-                        <p>Firebase Databases and Authentication</p>
-                        <p>Command Line</p>
+                <div class="col-sm-12">
+                    <div class="skills-panel col-sm-6">
+                        <h3 class="skill-category">Languages</h3>
+                        <ul class="skill-list">
+                            <li>Javascript</li>
+                            <li>HTML/CSS</li>
+                            <li>Ruby</li>
+                            <li>Rails</li>
+                            <li>Sass</li>
+                        </ul>
+                        <h3 class="skill-category">Frameworks/<br>Libraries</h3>
+                        <ul class="skill-list">
+                            <li>AngularJS</li>
+                            <li>JQuery</li>
+                        </ul>
+                    </div>
+                    <div class="skills-panel col-sm-6">
+                        <h3 class="skill-category">Principles</h3>
+                        <ul class="skill-list">
+                            <li>Test Driven Development</li>
+                            <li>Web Accessibility</li>
+                            <li>Algorithms</li>
+                            <li>Data Structures</li>
+                        </ul>
+                        <h3 class="skill-category">Additional Skills</h3>
+                        <ul class="skill-list">
+                            <li>Command Line</li>
+                            <li>GitHub</li>
+                            <li>Bootstrap</li>
+                            <li>Firebase</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
                 </div>
-                <a href="https://resume.creddle.io/resume/1mroxkavjhq" class="btn btn-default" target="_blank">Download Resume</a>
-            </div>
+                <div class="col-sm-12 resumeDownload">
+                    <a href="{{home.resume}}" class="btn btn-primary btn-lg resumeButton" target="_blank">Download Resume</a>
+                </div>
+
                 <div class="col-sm-6 testimonials">
                 <h3 class="testimonial-header">Testimonials</h3>
                 <div class="clients" ng-repeat="client in home.testimonials">
                     <p class="testimonial-body">{{client.text}}</p>
                     <h4 class="testimonial-info">{{client.name}} - {{client.title}}</h4>
                 </div>
-                </div>
             </div>
-<<<<<<< HEAD
             </div>
-=======
         </div>
->>>>>>> skills
+        </div>
     </div>
     <div class="panel panel-default" >
         <div class="panel-heading" id="contact-me-heading" data-toggle="collapse" data-parent="#accordion" href="#contact">
@@ -143,21 +152,20 @@
         <div id="contact" class="panel-collapse collapse">
             <div class="panel-body row cookie-row">
                 <div class="col-sm-6">
-                    <h3 class="contact-me-header">Have Questions? Want to see more samples of my work or just want to chat? Let's get coffee and talk, I'll bring the cookies.</h3>
+                    <h3 class="contact-me-header">Have Questions? Want to see more samples of my work or just want to chat? Let's get coffee and talk; I'll bring the cookies.</h3>
                     <img id='cookies' src="../assets/images/cookies.png">
                 </div>
                 <div class="col-sm-6">
                     <form action="https://liveformhq.com/form/6d65208a-fd03-450e-b733-d939c40ee5d7" method="POST" accept-charset="utf-8">
                         <h3 class='contact-header'>Send me a message:</h3>
                         <input class='contact-form' type="hidden" name="_utf8" value="✓">
-
+                        <label for="name" class="sr-only">Name</label>
                         <input class='contact-form clearfix' type="text" id="name" size='40' name="name" placeholder="Name"> <br />
-
+                        <label for="email" class="sr-only">Email</label>
                         <input class='contact-form clearfix' type="text" id="email" size="40" name="email" placeholder="E-mail Address"> <br />
-
+                        <label for="message" class="sr-only">Message</label>
                         <textarea class='contact-form' id="message" cols="50" rows="5" name="message" placeholder="Message"></textarea><br>
-
-                        <button class='btn btn-default contact-form-button' type="submit" ng-click="form.setPristine(); form='' ">Send</button>
+                        <button class='btn btn-primary contact-form-button' type="submit" ng-click="form.setPristine(); form='' ">Send</button>
                     </form>
                 </div>
             </div>
@@ -170,7 +178,7 @@
                 <a href="mailto:bethios@gmail.com?Subject=Your%20Portfolio" target="_top"><img src="../assets/images/email.png" alt="email link"></a>
             </li>
             <li>
-                <a href="https://github.com/bethios" target="_blank"><img src="../assets/images/GitHub-Mark-32px.png" alt="github link"></a>
+                <a href="https://github.com/bethios" target="_blank"><img src="../assets/images/GitHub-Mark-64px.png" alt="github link"></a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/beth-cummings-chicago/" target="_blank"><img src="../assets/images/linkedin.png" alt="linkedin link"></a>

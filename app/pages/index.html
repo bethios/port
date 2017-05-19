@@ -94,7 +94,7 @@
         </div>
         <div id="skills" class="panel-collapse collapse">
             <div class="panel-body row">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="skills-panel col-sm-6">
                         <h3 class="skill-category">Languages</h3>
                         <ul class="skill-list">
@@ -127,12 +127,12 @@
                             <li>Photoshop</li>
                         </ul>
                     </div>
-                    <div class="resumeDownload">
-                        <a href="{{home.resume}}" class="btn btn-primary btn-lg" target="_blank">Download Resume</a>
-                    </div>
+                </div>
+                <div class="col-sm-12 resumeDownload">
+                    <a href="{{home.resume}}" class="btn btn-primary btn-lg resumeButton" target="_blank">Download Resume</a>
                 </div>
 
-            <div class="col-sm-6 testimonials">
+                <div class="col-sm-6 testimonials">
                 <h3 class="testimonial-header">Testimonials</h3>
                 <div class="clients" ng-repeat="client in home.testimonials">
                     <p class="testimonial-body">{{client.text}}</p>

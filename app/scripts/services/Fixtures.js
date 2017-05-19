@@ -7,8 +7,7 @@
                 "unlimited on any device without an account, rate songs and create a cultivated playlist.",
                 Problem: "Kid's music drives parents crazy and pressing shuffle on iTunes can lead to some interesting questions from the kiddos.",
                 Solution: "Frankie Jams Out curates a selection of music that kids can sing along to but parent's won't mind hearing on repeat.",
-                Results: "With the ability to customize your playlist, rate songs for the community and skip to your favorite part of the chorus there are " +
-                "features that both parents and kids will love",
+                Results: "A bold, graphic and colorful website that is easy to navigate, play and skip songs.",
                 Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user " +
                 "accounts to store preferences.",
                 ipadView: '../../assets/images/frankiejamsout(iPad).png',
@@ -18,24 +17,6 @@
                 github: 'https://github.com/bethios/Frankie-Jams-Out',
                 languageIcons: ['devicon-jquery-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
                 deployLink: 'http://frankiejamsout.netlify.com/'
-            },
-            {   Project: "Must Chat TV",
-                Summary: "Must Chat TV is a web app built using AngularJS and firebase's database and authentication systems. Users can create an account, " +
-                "select or create chat rooms in real time and send messages. Admins have the ability to create private rooms for chosen users.",
-                Problem: "Social media can be an overload, you are excited about the season premiere of your favorite show and you want to chat with your " +
-                "friends about it without having to scroll through your second counsins political rants on facebook. ",
-                Solution: "Must Chat TV is solely dedicated to making the television watching experience more social. Chat with friends about the latest plot" +
-                " twists and dish on what you think will happen on next week's episode",
-                Results: "The end result is a retro feel with modern features. Users can add rooms and admins can create private rooms for select users.",
-                Conclusion: "Beginning user testing is positive, future features include admin's ability to delete rooms, ban users and for users to report " +
-                "abuse.",
-                ipadView: '../../assets/images/mustchattv(iPad).png',
-                phoneView: '../../assets/images/mustchattv(iPhone).png',
-                laptopView: '../../assets/images/mustChat-laptop.png',
-                mainImage: '../../assets/images/mustchattv(iPhone)(1).png',
-                github: 'https://github.com/bethios/mustchatTV',
-                languageIcons: ['devicon-angularjs-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
-                deployLink: 'http://mustchattv.netlify.com/'
             },
             {   Project: "Cookit- Grandma's Recipes",
                 Summary: "Cookit is a place to store and find family recipes handed down over generations.",
@@ -68,10 +49,64 @@
                 github: 'https://github.com/bethios/bloccit',
                 languageIcons: ['devicon-ruby-plain','devicon-rails-plain', 'devicon-css3-plain'],
                 deployLink: 'https://booted-resource.herokuapp.com/'
+            },
+            {   Project: "Must Chat TV",
+                Summary: "Must Chat TV is a web app built using AngularJS and firebase's database and authentication systems. Users can create an account, " +
+                "select or create chat rooms in real time and send messages. Admins have the ability to create private rooms for chosen users.",
+                Problem: "Social media can be an overload, you are excited about the season premiere of your favorite show and you want to chat with your " +
+                "friends about it without having to scroll through your second counsins political rants on facebook. ",
+                Solution: "Must Chat TV is solely dedicated to making the television watching experience more social. Chat with friends about the latest plot" +
+                " twists and dish on what you think will happen on next week's episode",
+                Results: "The end result is a retro feel with modern features. Users can add rooms and admins can create private rooms for select users.",
+                Conclusion: "Beginning user testing is positive, future features include admin's ability to delete rooms, ban users and for users to report " +
+                "abuse.",
+                ipadView: '../../assets/images/mustchattv(iPad).png',
+                phoneView: '../../assets/images/mustchattv(iPhone).png',
+                laptopView: '../../assets/images/mustChat-laptop.png',
+                mainImage: '../../assets/images/mustchattv(iPhone)(1).png',
+                github: 'https://github.com/bethios/mustchatTV',
+                languageIcons: ['devicon-angularjs-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
+                deployLink: 'http://mustchattv.netlify.com/'
+            },
+            {   Project: "Rough Cut Love",
+                Summary: "Rough Cut Love is a music site for local musician, Joe Griffin to premier his new album.",
+                Problem: "Mr. Griffin required a site with functionality for playing songs to show to local music venues when trying to book gigs.",
+                Solution: "Songs can be played, paused or skipped via the Buzz library",
+                Results: "With the ability to customize your playlist, rate songs for the community and skip to your favorite part of the chorus, potential club " +
+                "promoters will have no problem listening to and evaluating the music.",
+                Conclusion: "The client loves the functionality and ease of use. Plans continue to add more features to the site including an event calendar and " +
+                "contact form.",
+                ipadView: '../../assets/images/roughcutlove(iPad).png',
+                phoneView: '../../assets/images/roughcutlove(iPhone 6).png',
+                laptopView: '../../assets/images/frankieJams-laptop.png',
+                mainImage: '../../assets/images/roughcutlove(iPhone 6)(1).png',
+                github: 'https://github.com/bethios/Rough-Cut-Love',
+                languageIcons: ['devicon-angularjs-plain','devicon-bootstrap-plain', 'devicon-css3-plain'],
+                deployLink: 'http://roughcutlove.netlify.com//'
             }
         ];
 
         var posts = [
+            {   week: "Week 17: 5/15 - 21",
+                contents: "You know you are hooked on a career when all the books you pack to read on vacation are things like Clean Code or Grokking Algorithms or" +
+                " Inclusive Design Patterns.  All of which, fyi, are great books.  I brought a little notebook with me on the plane with a whiteboard coding " +
+                "challenge at the top of each page for some practice. I came back from vacation to find that my client for my capstone, Sacred Art, absolutely " +
+                "loves my mock-ups! I ran them past a graphic designer friend as well so I have a few little things here and there to change but that’s it! I " +
+                "have a plan for my UI! Onto finishing up the planning on Trello so I can actually start coding this thing.",
+                image: '../assets/images/books.jpg'
+            },
+            {   week:"Week 16: 5/8 - 5/14",
+                contents: "Okay people, this is it, specialization time.  Because I’m pretty far ahead time wise in the curriculum (17% above pace) I will likely" +
+                " have time to do more than one capstone project, or at least that’s my uber ambitious hope! First though is a new site for Sacred Art, a Chicago" +
+                " area shop that sells over a 100 different local artists work.  The site now is wordpress based and hasn’t been overhauled in years. It’s a bit " +
+                "unloved and begging for a redo. I thought that making a real website for a real client would be a wonderful experience for my capstone.  Kate," +
+                " the owner, and I met a few weeks ago and talked about what her dream site would be. She already has a beautiful color palette for me to work from " +
+                "and fonts all chosen so this week I’m spending doing wireframes and flushing out user stories in Trello. It’s given me a whole new perspective to" +
+                " take it from a project management standpoint and plot and plan out all the little interconnected pieces and what all it would take to make it go " +
+                "from idea to fruition.  Up until this point, Bloc has done most of the planning for me and I’ve just been a good little code monkey implementing " +
+                "away. Take away?  I do not envy project managers! ",
+                image: '../assets/images/sa_logo1.png'
+            },
             {   week: "Week 15: 5/1-5/7",
                 contents:
                 "I started and finished my last project as part of the backend foundations.  I created a gem from scratch! I mean, I obviously knew this was " +

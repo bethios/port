@@ -106,9 +106,9 @@ form{
 
 .hero{
     background-image: url('../assets/images/desktop.jpg');
-    height: 350px;
+    height: 25vh;
     background-size: cover;
-    background-position-y: 70%;
+    background-position-y: 50%;
 }
 
 .thumb{
@@ -154,8 +154,50 @@ img{
     background-color: rgb(0, 97, 117);
 }
 
+.blog-image {
+    max-height: 70vh;
+    width: auto;
+    max-width: 100%;
+    padding-bottom: 15px;
+    margin: auto;
+    display: block;
+}
+
+.skill-category{
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(0, 162, 198);
+    font-weight: 500;
+    font-variant: small-caps;
+}
+
 #resume-heading{
     background-color: rgb(0, 127, 153);
+}
+
+.btn-primary{
+    background-color: rgb(0, 127, 153);
+    color: white;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.resumeDownload{
+    text-align: center;
+}
+
+.resumeButton{
+    margin: auto;
+    width: auto;
+}
+
+.skill-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.skill-list li{
+    font-size: 120%;
 }
 
 #contact-me-heading{
@@ -170,10 +212,22 @@ h3.case-study-details{
     font-weight: 600;
 }
 
+.case-study-tiles{
+    padding: 15px;
+}
+
 .case-study-details{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.phone {
+    cursor: hand;
+}
+
+.phone:hover {
+    cursor: hand;
 }
 
 .ion-close{
@@ -194,6 +248,11 @@ h3.case-study-details{
     border-top: solid 1px black;
 }
 
+.phoneStudy{
+    max-height: 50vh;
+    width: auto;
+}
+
 .ion-email{
     font-size: 3rem;
     color: navy;
@@ -212,6 +271,10 @@ a .github{
 .skills-icon{
     font-size: 4rem;
     margin: 1rem;
+}
+
+.testimonials{
+    display: none;
 }
 
 .testimonial-header{
