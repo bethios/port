@@ -87,6 +87,13 @@
         ];
 
         var posts = [
+            {   week: "Week 18: 5/22-28",
+                contents: "There's a whole lot of coding going on! I've been getting reusable css set up as well as the development environment. " +
+                "The static pages are almost all in place, landing, about, faq, submissions and contact. The plan is to finish them up this week so that" +
+                "next week I can move on to tackling setting up the CMS for the site so the client can change shop hours and update/add/delete artists.",
+                image: '../assets/images/capybara.jpg'
+
+            },
             {   week: "Week 17: 5/15 - 21",
                 contents: "You know you are hooked on a career when all the books you pack to read on vacation are things like Clean Code or Grokking Algorithms or" +
                 " Inclusive Design Patterns.  All of which, fyi, are great books.  I brought a little notebook with me on the plane with a whiteboard coding " +
