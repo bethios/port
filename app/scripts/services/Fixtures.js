@@ -92,7 +92,6 @@
                 "The static pages are almost all in place, landing, about, faq, submissions and contact. The plan is to finish them up this week so that" +
                 "next week I can move on to tackling setting up the CMS for the site so the client can change shop hours and update/add/delete artists.",
                 image: '../assets/images/capybara.jpg'
-
             },
             {   week: "Week 17: 5/15 - 21",
                 contents: "You know you are hooked on a career when all the books you pack to read on vacation are things like Clean Code or Grokking Algorithms or" +
