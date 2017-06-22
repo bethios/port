@@ -1,0 +1,71 @@
+<span class="ion-close" ui-sref="home"></span>
+
+<div class="container">
+    <div class="row">
+        <h1 class="capstone-heading">Sacred Art Chicago, from the ground up. </h1>
+        <div class="col-sm-6 sample sample1"></div>
+        <div class="col-sm-6 text-container">
+            <h3>Summary</h3>
+            <p>The client, Sacred Art, was in need of a complete overhaul of her current site to best display the artists
+            she carries and to allow for ease of use.</p>
+            <h3>Problem</h3>
+            <p>Sacred Art's original site was powered through Wordpress and based on a standard template.  The template
+                did not serve their particular needs and was often inadequate for their purposes.</p>
+            <p>The store owner would often neglect updating the site because the interface was not intuitive enough for
+                her to want to use. As such it served neither her nor her customers who came their for updates, news and
+                artist information.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-9">
+            <h3>Solution</h3>
+            <p><strong>Bright and Graphic: </strong>
+            First and foremost I built out the HTML and CSS/SASS with a mind towards showcases all the amazing talent that
+            Sacred Art carries. Swapping out simple links for graphic, bright cards directs shoppers between categories
+            of art. For pages that were originally completely text based I developed a two column responsive layout that
+            could be used over and over to sneak in a few more photos next to liven up even something as boring as
+            the FAQ page. </p>
+            <p><strong>Easy to use CMS: </strong>
+            Without the ability to easily use the CMS its all pretty useless for the client. So, I decided to build Kate
+            a CMS from scratch with Ruby/Rails that was both intuitive and simple. For example, when viewing all the artists
+            in a particular category admin buttons were added to add artists at the top of the page where they couldn't
+            be missed.  Each artists card itself had edit and delete buttons so updating was as simple as scrolling through
+            an alphabetical list.
+            <br>
+            To simplify even further I built an admin control panel for her to access all the controls
+            in one easy location with instructions right there on the page so she wouldn't be required to reference email
+            instructions or outside sources. The idea was a one stop shop for all her CMS needs.</p>
+            <p><strong>Storage and Database: </strong>
+            With a custom built CMS came storage issues. For the database SQLite was used in development and Postgres for
+            our test site (as heroku has SQLite issues). Databases were set up to support the CMS's ability to add/edit/delete
+            artists, change shop hours, FAQ's and Events. Considerations were given for simplicity of use by automatically
+            alphabetizing the database, a problem which plagued the original site. An event index can be seen by the admin
+            but only current or upcoming events display to customers, simplifying the upkeep for Kate. Small changes like
+            these were aimed at making a big difference in the site's upkeep, now she can focus on her customers and
+            her artists rather than making sure outdated events were deleted.</p>
+            <p><strong>Ecommerce enabled: </strong>
+            The original site had no way to receive online orders which was a real drawback.  By integrating Square, the
+            payment processor Kate already used I was able to easily add ecommerce functionality. This will open up a brand
+            new revenue stream for Sacred Art with online shipping and instore pick up options.</p>
+            <p><strong>Responsive: </strong>
+            I was sure to make the site as responsive as possible, often altering the layout, and which elements were
+            displayed at all to make the mobile experience as easy to use as possible. Utilizing according layouts for
+            the FAQ and overflow set to scroll for some of the longer bios I was able to give user's thumbs a little
+            rest while accessing via mobile.</p>
+        </div>
+        <div class="col-sm-3 sample sample2"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 sample sample3"></div>
+        <div class="col-sm-6 text-container">
+            <h3>Results</h3>
+            <p>"Working with Beth has been a dream! She listened to all of my concerns, requirements, wishes and problems
+                with my current site, and came back with a fantastic concept & plan right out of the gate. Beth asked the
+                exact right questions to get to the heart of what I was looking for, made excellent suggestions, and took
+                all of my feedback well. Implementation has been fast and efficient, and she has kept me in the loop along
+                the way to be sure that what she was building would work for me. All of that AND she's fun to work with!
+                I cannot recommend her highly enough."</p>
+            <p><strong>Kate Merena, Owner, Sacred Art</strong></p>
+        </div>
+    </div>
+</div>

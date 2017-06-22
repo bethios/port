@@ -17,6 +17,12 @@
                 controller: 'CaseStudyCtrl as caseStudy',
                 templateUrl: '/templates/caseStudy.html'
             });
+        $stateProvider
+            .state('capstone', {
+                url: '/capstone',
+                controller: 'CapstoneCtrl as capstone',
+                templateUrl: '/templates/capstone.html'
+            })
     }
 
     angular

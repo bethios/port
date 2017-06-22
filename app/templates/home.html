@@ -1,4 +1,16 @@
+
 <div class="panel-body row">
+    <div class="col-sm-12">
+        <div class="capstone row" ui-sref="capstone">
+            <h2 class="capstone-heading">Sacred Art Chicago revamped website with custom CMS.</h2>
+            <div class="col-sm-6">
+                <img class="cap-images" src="../assets/images/sacredart-after1.png">
+            </div>
+            <div class="col-sm-6">
+                <img class="cap-images" src="../assets/images/sacredart-after2.png">
+            </div>
+        </div>
+    </div>
     <div ng-repeat="project in home.caseStudyData" class="col-sm-4">
         <div ui-sref="caseStudy" ng-click="home.setCurrentCaseStudy($index)" class="case-study-tiles phone">
             <img class='phone' src="{{project.mainImage}}" alt-text="{{project.summary}}">

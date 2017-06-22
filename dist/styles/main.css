@@ -18,6 +18,10 @@ html{
     font-size:100%;
 }
 
+.capstone-heading{
+    font-family: 'Bowlby One SC', cursive;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -221,6 +225,9 @@ h3.case-study-details{
     padding-left: 10px;
     padding-right: 10px;
 }
+img{
+    cursor: hand;
+}
 
 .phone {
     cursor: hand;
@@ -310,6 +317,51 @@ footer ul img{
     display: inline;
     float: right;
     margin: 5px;
+}
+
+.capstone{
+    border: 10px #006175 solid;
+    margin: 15px;
+    padding: 15px;
+}
+
+.cap-images{
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sample{
+    height: 33vw;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.sample1{
+    background-image: url('../assets/images/sacredart-after1.png');
+}
+
+.sample1:hover{
+    background-image: url('../assets/images/sacredart-before1.png');
+}
+.sample2{
+    background-image: url('../assets/images/sacredart-after-mobile3.png');
+}
+
+.sample2:hover{
+    background-image: url('../assets/images/sacredart-before-mobile.png');
+}
+.sample3{
+    background-image: url('../assets/images/sacredart-after2.png');
+}
+
+.sample3:hover{
+    background-image: url('../assets/images/sacredart-before2.png');
+}
+
+.text-container{
+    padding: 50px 30px;
 }
 
 @media only screen and (min-width: 600px) {
