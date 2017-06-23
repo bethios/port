@@ -230,10 +230,18 @@ img{
 }
 
 .phone {
-    cursor: hand;
+    cursor: pointer;
 }
 
 .phone:hover {
+    cursor: pointer;
+}
+
+.case-study-tiles{
+    cursor: pointer;
+}
+
+a:hover{
     cursor: hand;
 }
 
@@ -323,6 +331,7 @@ footer ul img{
     border: 10px #006175 solid;
     margin: 15px;
     padding: 15px;
+    cursor: pointer;
 }
 
 .cap-images{
@@ -362,6 +371,10 @@ footer ul img{
 
 .text-container{
     padding: 50px 30px;
+}
+
+.capstone-icons i{
+    font-size: 3.25rem;
 }
 
 @media only screen and (min-width: 600px) {
