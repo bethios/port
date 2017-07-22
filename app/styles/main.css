@@ -153,9 +153,11 @@ img{
     text-align: center;
 }
 
-.resumeButton{
-    margin: auto;
+.skillsButtons{
+    margin: 10px;
     width: auto;
+    text-align: center
+;
 }
 
 #contact-me-heading{
