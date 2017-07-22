@@ -96,8 +96,7 @@ form{
 }
 
 .row{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px;
 }
 
 #contact .row{
@@ -375,6 +374,58 @@ footer ul img{
 
 .capstone-icons i{
     font-size: 3.25rem;
+}
+
+.parallax {
+    position: relative;
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkgd1{
+    background-image: url('../assets/images/desktop.jpg');
+}
+
+.bkgd2{
+    background-image: url('../assets/images/sacredart-after3.png');
+    opacity: 0.65;
+}
+
+.bkgd3{
+    background-image: url('../assets/images/books.jpg');
+}
+
+.bkgd4{
+    background-image: url('../assets/images/sacredart-after3.png');
+}
+
+.bkgd5{
+    background-image: url('../assets/images/sacredart-after3.png');
+}
+
+.scroll{
+    position: relative;
+    display: block;
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.caption-text {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 
 @media only screen and (min-width: 600px) {
