@@ -1,19 +1,18 @@
 
 <div class="panel-body row">
-    <div class="col-sm-12">
-        <div class="capstone row" ui-sref="capstone">
-            <h2 class="capstone-heading">Sacred Art Chicago revamped website with custom CMS.</h2>
-            <div class="col-sm-6">
-                <img class="cap-images" src="../assets/images/sacredart-after1.png">
-            </div>
-            <div class="col-sm-6">
-                <img class="cap-images" src="../assets/images/sacredart-after2.png">
-            </div>
+    <div ui-sref="capstone" class="case-study-tiles col-sm-4">
+        <img class='square-preview' src="../assets/images/sacred-art-square.png" alt-text="sacred art rebrand and custom CMS">
+        <div class="overlay">
+            <div class="text">Custom CMS built in Ruby/Rails and Postgres for Sacred Art to best
+                display the artists she carries and to allow for ease of use.</div>
         </div>
     </div>
-    <div ng-repeat="project in home.caseStudyData" class="col-sm-4">
-        <div ui-sref="caseStudy" ng-click="home.setCurrentCaseStudy($index)" class="case-study-tiles phone">
-            <img class='phone' src="{{project.mainImage}}" alt-text="{{project.summary}}">
+    <div ng-repeat="project in home.caseStudyData" class="">
+        <div ui-sref="caseStudy" ng-click="home.setCurrentCaseStudy($index)" class="case-study-tiles col-sm-4">
+            <img class='square-preview' src="{{project.square}}" alt-text="{{ project.Summary }}">
+            <div class="overlay">
+                <div class="text">{{ project.Summary }}</div>
+            </div>
         </div>
     </div>
 </div>

@@ -3,13 +3,13 @@
 
         var caseStudies = [
             {   Project: "Frankie Jams Out",
-                Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz designed with parents and kids in mind. Users can stream " +
-                "unlimited on any device without an account, rate songs and create a cultivated playlist.",
+                Summary: "Frankie Jams Out is a responsive music app built with JQuery and Buzz designed with parents and kids in mind.",
                 Problem: "Kid's music drives parents crazy and pressing shuffle on iTunes can lead to some interesting questions from the kiddos.",
                 Solution: "Frankie Jams Out curates a selection of music that kids can sing along to but parent's won't mind hearing on repeat.",
                 Results: "A bold, graphic and colorful website that is easy to navigate, play and skip songs.",
                 Conclusion: "As it turns out its easy enough for a four year old to use. Requests have included the ability to skip entire albums and user " +
                 "accounts to store preferences.",
+                square: '../../assets/images/frankieJams-square.png',
                 ipadView: '../../assets/images/frankiejamsout(iPad).png',
                 phoneView: '../../assets/images/frankiejamsout(iPhone)(1).png',
                 laptopView: '../../assets/images/frankieJams-laptop.png',
@@ -19,13 +19,14 @@
                 deployLink: 'http://frankiejamsout.netlify.com/'
             },
             {   Project: "Cookit- Grandma's Recipes",
-                Summary: "Cookit is a place to store and find family recipes handed down over generations.",
+                Summary: "Cookit is a place to store and find family recipes handed down over generations in Ruby on Rails.",
                 Problem: "Family recipes-- Grandma's sunday sauce, Tia's Enchiladas, Pop's Pancakes have traditionally been passed down orally. More and more" +
                 "these recipes are being lost to time and technology. WIth Cookit users can peruse recipes by dish and see how different families made their 'perfect' " +
                 "version.",
                 Solution: "An easily browsable resource for family traditions that can be shared worldwide",
                 Results: "Recipes can be added and styled using markdown language. User accounts hold their submitted recipes, track comments and their favorites. ",
                 Conclusion: "Responses have been positive, additional features for search and more complete instructions on using markdown language in the next version.",
+                square: '../../assets/images/cookit-square.png',
                 ipadView: '../../assets/images/cookit-iPad.png',
                 phoneView: '../../assets/images/cookit-iPhone 6(2).png',
                 laptopView: '../../assets/images/cookit-iPhone 6(2).png',
@@ -35,13 +36,13 @@
                 deployLink: 'https://cookit-grandmasrecipes.herokuapp.com/'
             },
             {   Project: "Booted",
-                Summary: "A wiki for coding bootcamp students and grads.",
-                Problem: "Coding bootcamp curriculums can vary wildly. But one thing is certain, you can't learn it all in such a short time. Supplement skills" +
-                " missing from your bootcamp education, brush up on interview techniques and share advice.",
+                Summary: "A wiki for coding bootcamp students and grads in Ruby/Rails.",
+                Problem: "Supplement skills missing from your bootcamp education, brush up on interview techniques and share advice.",
                 Solution: "A wiki inspired resource to collaborate and learn",
                 Results: "Utilizing the Devise gem users can create accounts and easily retrieve passwords. With the Stripe gem users can upgrade to a premium account allowing" +
                 " the creation of private wikis and add collaborators to projects",
                 Conclusion: "Students from the same cohort utilize the premium membership and private wikis to create specialized wikis to supplement their education.",
+                square: '../../assets/images/booted-square.png',
                 ipadView: '../../assets/images/booted(iPad).png',
                 phoneView: '../../assets/images/booted(iPhone)(1).png',
                 laptopView: '../../assets/images/booted(iPhone)(1).png',
@@ -51,8 +52,7 @@
                 deployLink: 'https://booted-resource.herokuapp.com/'
             },
             {   Project: "Must Chat TV",
-                Summary: "Must Chat TV is a web app built using AngularJS and firebase's database and authentication systems. Users can create an account, " +
-                "select or create chat rooms in real time and send messages. Admins have the ability to create private rooms for chosen users.",
+                Summary: "Must Chat TV is a web app built using AngularJS and firebase's database and authentication systems.",
                 Problem: "Social media can be an overload, you are excited about the season premiere of your favorite show and you want to chat with your " +
                 "friends about it without having to scroll through your second counsins political rants on facebook. ",
                 Solution: "Must Chat TV is solely dedicated to making the television watching experience more social. Chat with friends about the latest plot" +
@@ -60,6 +60,7 @@
                 Results: "The end result is a retro feel with modern features. Users can add rooms and admins can create private rooms for select users.",
                 Conclusion: "Beginning user testing is positive, future features include admin's ability to delete rooms, ban users and for users to report " +
                 "abuse.",
+                square: '../../assets/images/mustchattv-square.png',
                 ipadView: '../../assets/images/mustchattv(iPad).png',
                 phoneView: '../../assets/images/mustchattv(iPhone).png',
                 laptopView: '../../assets/images/mustChat-laptop.png',
@@ -69,13 +70,14 @@
                 deployLink: 'http://mustchattv.netlify.com/'
             },
             {   Project: "Rough Cut Love",
-                Summary: "Rough Cut Love is a music site for local musician, Joe Griffin to premier his new album.",
+                Summary: "Rough Cut Love is a music site for local musician, Joe Griffin to premier his new album in AngularJS.",
                 Problem: "Mr. Griffin required a site with functionality for playing songs to show to local music venues when trying to book gigs.",
                 Solution: "Songs can be played, paused or skipped via the Buzz library",
                 Results: "With the ability to customize your playlist, rate songs for the community and skip to your favorite part of the chorus, potential club " +
                 "promoters will have no problem listening to and evaluating the music.",
                 Conclusion: "The client loves the functionality and ease of use. Plans continue to add more features to the site including an event calendar and " +
                 "contact form.",
+                square: '../../assets/images/roughcutlove-square.png',
                 ipadView: '../../assets/images/roughcutlove(iPad).png',
                 phoneView: '../../assets/images/roughcutlove(iPhone 6).png',
                 laptopView: '../../assets/images/frankieJams-laptop.png',

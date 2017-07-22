@@ -18,26 +18,11 @@ html{
     font-size:100%;
 }
 
-.capstone-heading{
-    font-family: 'Bowlby One SC', cursive;
-}
-
 body{
     font-family: 'Open Sans', sans-serif;
     color: black;
     display:inline;
-}
-
-.panel-group .panel+.panel{
-    margin-top: 0;
-}
-
-.panel-heading{
-    cursor: pointer;
-}
-
-.panel-group{
-    margin-bottom: 0px;
+    box-sizing: border-box;
 }
 
 .contact-header{
@@ -153,27 +138,6 @@ img{
     background-color: rgb(0, 76, 91);
 }
 
-#blog-heading{
-    background-color: rgb(0, 97, 117);
-}
-
-.blog-image {
-    max-height: 70vh;
-    width: auto;
-    max-width: 100%;
-    padding-bottom: 15px;
-    margin: auto;
-    display: block;
-}
-
-.skill-category{
-    text-align: center;
-    margin-top: 30px;
-    border-bottom: 2px solid rgb(0, 162, 198);
-    font-weight: 500;
-    font-variant: small-caps;
-}
-
 #resume-heading{
     background-color: rgb(0, 127, 153);
 }
@@ -192,15 +156,6 @@ img{
 .resumeButton{
     margin: auto;
     width: auto;
-}
-
-.skill-list{
-    list-style: none;
-    padding-left: 0;
-}
-
-.skill-list li{
-    font-size: 120%;
 }
 
 #contact-me-heading{
@@ -238,6 +193,42 @@ img{
 
 .case-study-tiles{
     cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.square-preview {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.case-study-tiles:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: scroll;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 a:hover{
@@ -251,22 +242,6 @@ a:hover{
     cursor: hand;
 }
 
-.blog-body{
-    height: 80vh;
-    overflow: scroll;
-    margin: auto;
-    max-width: 65rem;
-}
-
-.blog-post p{
-    border-top: solid 1px black;
-}
-
-.phoneStudy{
-    max-height: 50vh;
-    width: auto;
-}
-
 .ion-email{
     font-size: 3rem;
     color: navy;
@@ -276,45 +251,26 @@ a .github{
     width: 40px;
 }
 
-.skills-panel{
-    padding: 60px 20px 20px 20px;
-    text-align: center;
-    margin: auto;
+.skill-list{
+    list-style: none;
+    padding-left: 0;
 }
 
-.skills-icon{
-    font-size: 4rem;
-    margin: 1rem;
+.skill-list li{
+    font-size: 1.1em;
 }
 
-.testimonials{
-    display: none;
-}
-
-.testimonial-header{
-    text-align: center;
-    font-weight: 700;
-}
-
-.testimonial-info{
-    margin-bottom: 15px;
-    margin-top: 2px;
-    font-weight: 400;
-}
-
-.testimonial-body{
-    max-width: 60rem;
-    margin: auto;
-}
-
-.additional-skills{
-    padding-top: 15px;
+.skill-category{
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(0, 162, 198);
+    font-variant: small-caps;
 }
 
 footer ul{
     text-decoration: none;
     list-style: none;
-
 }
 
 footer ul img{
@@ -324,6 +280,10 @@ footer ul img{
     display: inline;
     float: right;
     margin: 5px;
+}
+
+footer{
+    padding-bottom: 50px;
 }
 
 .capstone{
@@ -390,8 +350,7 @@ footer ul img{
 }
 
 .bkgd2{
-    background-image: url('../assets/images/sacredart-after3.png');
-    opacity: 0.65;
+    background-image: url('../assets/images/code.png');
 }
 
 .bkgd3{
@@ -399,11 +358,7 @@ footer ul img{
 }
 
 .bkgd4{
-    background-image: url('../assets/images/sacredart-after3.png');
-}
-
-.bkgd5{
-    background-image: url('../assets/images/sacredart-after3.png');
+    background-image: url('../assets/images/typewriter.jpg');
 }
 
 .scroll{
@@ -423,7 +378,7 @@ footer ul img{
 .caption span.caption-text {
     background-color: #111;
     color: #fff;
-    padding: 18px;
+    padding: 18px 25px;
     font-size: 25px;
     letter-spacing: 10px;
 }
